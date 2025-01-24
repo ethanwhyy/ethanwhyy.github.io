@@ -44,18 +44,29 @@
       ]
     },
     {
-      title: "Black Scholes", 
-      description: "A quick & easy Black Scholes model, demonstrating my former desire of quant.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      link: "https://iflysohigh.github.io/BlackScholes/",
+      title: "NY Housing Data", 
+      description: "(School project) Create several data visualizations to better understand the NYC housing market.",
+      tags: ["R Shiny", "HTML"],
+      link: "https://iflysohigh.shinyapps.io/projectyuen/",
       platforms: [
         { icon: TbWorld, color: "#4285F4" },
         // { icon: FaBitcoin, color: "#F7931A" }
       ]
-    }
+    },
+
+    // {
+    //   title: "Black Scholes", 
+    //   description: "A quick & easy Black Scholes model, demonstrating my former desire of quant.",
+    //   tags: ["HTML", "CSS", "JavaScript"],
+    //   link: "https://iflysohigh.github.io/BlackScholes/",
+    //   platforms: [
+    //     { icon: TbWorld, color: "#4285F4" },
+    //     // { icon: FaBitcoin, color: "#F7931A" }
+    //   ]
+    // },
   ];
 
-  type AudienceType = 'anyone' | 'investors' | 'recruiters';
+  type AudienceType = 'anyone' | 'investors' | 'recruiters' | 'economists';
 
   const audienceContent = {
     anyone: {
@@ -85,6 +96,41 @@
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
+    },
+    "economists": {
+      title: "Economists",
+      description: (
+        <>
+          I've written Economic papers on topics such as {" "}
+          <a 
+            href="/Effects of TCJA TCR on Shareholder Payouts.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-colors hover:text-sky-500"
+            style={{ display: "inline-flex"}}
+          > thin-cap rates&#x2197;
+          </a>,
+          <a 
+            href="/EV Tax Credit Impact on Stock Price.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-colors hover:text-sky-500"
+            style={{ display: "inline-flex"}}
+          > EV tax credits&#x2197; 
+          </a>, 
+          <a 
+            href="/Inflation Target impact on Inflation Rate.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-colors hover:text-sky-500"
+            style={{ display: "inline-flex"}}
+          > inflation policies&#x2197;
+          </a>,
+          <br></br>
+          and more!
+        </>
+      ),
+      skills: [""]
     },
   };
 
@@ -285,7 +331,7 @@
                       paddingRight: '1rem'
                     }}
                   >
-                    {(['anyone', 'investors', 'recruiters'] as AudienceType[]).map((audience) => (
+                    {(['anyone', 'investors', 'recruiters', 'economists'] as AudienceType[]).map((audience) => (
                       <button
                         key={audience}
                         onClick={() => setSelectedAudience(audience)}
@@ -452,7 +498,7 @@
                             <p className="text-sm text-[#969696]">
                               I researched and onboarded several Data Center Infrastructure Management systems, ultimately
                               selecting the best solution based on SMBC criterium. I also developed several data governance and 
-                              hardware reference designs to reduce error and improve efficiency of IT Asset Management. 
+                              hardware reference designs to improve efficiency of IT Asset Management. 
                             </p>
                             
                           </div>
@@ -547,6 +593,14 @@
                             <p className="text-l text-[#969696]">Looking for new opportunities.</p>
                           </div>
                           <div className="flex gap-8 pt-8">
+                          <a
+                              href="mailto:yuenethanw@gmail.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              Email
+                            </a>
                             <a
                               href="https://www.linkedin.com/in/ethan-yuen/"
                               target="_blank"
