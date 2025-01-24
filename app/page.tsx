@@ -578,7 +578,7 @@
                       <div className="md:col-span-2 md:col-start-2">
                         <div className="space-y-8 max-w-2xl">
                           <Image
-                            src="/ethan.JPG"
+                            src="/ethan.jpg"
                             alt="Ethan Yuen"
                             width={500}
                             height={300}
