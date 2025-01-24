@@ -556,7 +556,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Every failure let's me learn something new every day :)
+                            or traveling the world. Every failure lets me learn something new :)
                           </p>
                         </div>
                       </div>
