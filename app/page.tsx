@@ -546,7 +546,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             In my free time I enjoy taking photos, trying new food, and 
-                            striking conversations with people on the streets of New York City. If I'm not exploring,
+                            striking conversations with people on the streets of New York City. If I'm not exploring
                             you can find me reading a good book, in the gym, or discovering new music.
                           </p>
                         </div>
@@ -556,7 +556,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Every failure lets me learn something new :)
+                            or traveling the world. Let's build something together :)
                           </p>
                         </div>
                       </div>
