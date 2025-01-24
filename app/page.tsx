@@ -82,7 +82,7 @@
       title: "Investors/Founders",
       description: (
         <>
-          I build fin-ed passion projects, aiming to help you unlock {" "}
+          I build fin-ed passion projects designed to help you unlock {" "}
           <span className="hover:text-[#37ab43] transition-colors cursor-default">financial freedom</span> without breaking the bank. 
         </>
       ),
