@@ -532,7 +532,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                           My skillset allows me to design solutions that align company and personal objectives/goals.
-                          I build simple and effective products that we can use to save time, allowing us to pursue our dreams!
+                          I build simple and effective products to save time and allow people to pursue their dreams!
                           </p>
                         </div>
                       </div>
@@ -546,8 +546,8 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             In my free time I enjoy taking photos, trying new food, and 
-                            talking to strangers on the streets of New York City. If I'm not exploring,
-                            you can find me reading a good book or uncovering new music.
+                            striking conversations with people on the streets of New York City. If I'm not exploring,
+                            you can find me reading a good book, in the gym, or discovering new music.
                           </p>
                         </div>
                       </div>
@@ -556,7 +556,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Failure provides an opportunity to grow! Learn something new every day :)
+                            or traveling the world. Every failure let's me learn something new every day :)
                           </p>
                         </div>
                       </div>
