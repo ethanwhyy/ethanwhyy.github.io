@@ -523,7 +523,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                           I'm a lifelong learner and strategist with an eye for detail and the ability to quickly pick up skills.
-                          I thrive in fast-paced environments. I try to engage in everything with a passion; failure provides me an opportunity to grow! 
+                          I thrive in fast-paced environments and enjoy working on products I'm passionate about. 
                           </p>
                         </div>
                       </div>
@@ -531,9 +531,8 @@
                       <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
-                          My skillset allows me to design solutions that align both company and individual objectives.
-                          I want to build simple and effective products. Ones we can use
-                           to save bandwidth, and spend more time chasing dreams.
+                          My skillset allows me to design solutions that align company and personal objectives/goals.
+                          I build simple and effective products that we can use to save time, allowing us to pursue our dreams!
                           </p>
                         </div>
                       </div>
@@ -557,7 +556,7 @@
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
                             I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Learn something new from everyone you meet! :)
+                            or traveling the world. Failure provides an opportunity to grow! Learn something new every day :)
                           </p>
                         </div>
                       </div>
