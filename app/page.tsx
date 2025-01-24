@@ -66,7 +66,7 @@
     // },
   ];
 
-  type AudienceType = 'anyone' | 'investors' | 'recruiters' | 'economists';
+  type AudienceType = 'anyone' | 'investors' | 'recruiters';
 
   const audienceContent = {
     anyone: {
@@ -97,41 +97,41 @@
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
     },
-    "economists": {
-      title: "Economists",
-      description: (
-        <>
-          I've written Economic papers on topics such as {" "}
-          <a 
-            href="/Effects of TCJA TCR on Shareholder Payouts.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="transition-colors hover:text-sky-500"
-            style={{ display: "inline-flex"}}
-          > thin-cap rates&#x2197;
-          </a>,
-          <a 
-            href="/EV Tax Credit Impact on Stock Price.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="transition-colors hover:text-sky-500"
-            style={{ display: "inline-flex"}}
-          > EV tax credits&#x2197; 
-          </a>, 
-          <a 
-            href="/Inflation Target impact on Inflation Rate.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="transition-colors hover:text-sky-500"
-            style={{ display: "inline-flex"}}
-          > inflation policies&#x2197;
-          </a>,
-          <br></br>
-          and more!
-        </>
-      ),
-      skills: [""]
-    },
+    // "economists": {
+    //   title: "Economists",
+    //   description: (
+    //     <>
+    //       I've written Economic papers on topics such as {" "}
+    //       <a 
+    //         href="/Effects of TCJA TCR on Shareholder Payouts.pdf" 
+    //         target="_blank" 
+    //         rel="noopener noreferrer" 
+    //         className="transition-colors hover:text-sky-500"
+    //         style={{ display: "inline-flex"}}
+    //       > thin-cap rates&#x2197;
+    //       </a>,
+    //       <a 
+    //         href="/EV Tax Credit Impact on Stock Price.pdf" 
+    //         target="_blank" 
+    //         rel="noopener noreferrer" 
+    //         className="transition-colors hover:text-sky-500"
+    //         style={{ display: "inline-flex"}}
+    //       > EV tax credits&#x2197; 
+    //       </a>, 
+    //       <a 
+    //         href="/Inflation Target impact on Inflation Rate.pdf" 
+    //         target="_blank" 
+    //         rel="noopener noreferrer" 
+    //         className="transition-colors hover:text-sky-500"
+    //         style={{ display: "inline-flex"}}
+    //       > inflation policies&#x2197;
+    //       </a>,
+    //       <br></br>
+    //       and more!
+    //     </>
+    //   ),
+    //   skills: [""]
+    // },
   };
 
   export default function Home() {
@@ -331,7 +331,7 @@
                       paddingRight: '1rem'
                     }}
                   >
-                    {(['anyone', 'investors', 'recruiters', 'economists'] as AudienceType[]).map((audience) => (
+                    {(['anyone', 'investors', 'recruiters'] as AudienceType[]).map((audience) => (
                       <button
                         key={audience}
                         onClick={() => setSelectedAudience(audience)}
