@@ -43,16 +43,16 @@
         // { icon: FaBitcoin, color: "#F7931A" }
       ]
     },
-    {
-      title: "NY Housing Data", 
-      description: "(School project) Create several data visualizations to better understand the NYC housing market.",
-      tags: ["R Shiny", "HTML"],
-      link: "https://iflysohigh.shinyapps.io/projectyuen/",
-      platforms: [
-        { icon: TbWorld, color: "#4285F4" },
-        // { icon: FaBitcoin, color: "#F7931A" }
-      ]
-    },
+    // {
+    //   title: "NY Housing Data", 
+    //   description: "(School project) Create several data visualizations to better understand the NYC housing market.",
+    //   tags: ["R Shiny", "HTML"],
+    //   link: "https://iflysohigh.shinyapps.io/projectyuen/",
+    //   platforms: [
+    //     { icon: TbWorld, color: "#4285F4" },
+    //     // { icon: FaBitcoin, color: "#F7931A" }
+    //   ]
+    // },
 
     // {
     //   title: "Black Scholes", 
@@ -73,7 +73,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan, an NYC-based entrepreneur & jack of all trades who loves long walks, late night talks, and caffeine.
+          Hiya! I'm Ethan, an NYC-based entrepreneur & experimentalist who enjoys long walks, late night talks, and naps.
         </>
       ),
       skills: [""]
@@ -82,8 +82,8 @@
       title: "Investors/Founders",
       description: (
         <>
-          I build fin-ed passion projects designed to help you unlock {" "}
-          <span className="hover:text-[#37ab43] transition-colors cursor-default">financial freedom</span> without breaking the bank. 
+          I love building passion projects to help you maximize {" "}
+          <span className="hover:text-[#37ab43] transition-colors cursor-default">efficiency and financial value</span> without breaking the bank. 
         </>
       ),
       skills: [""]
@@ -92,7 +92,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a quick study with a knack for finding creative solutions to recurring issues. I’m actively searching for new roles.
+          I’m a creative yet quick study with a knack for finding unique solutions. I learn best by hands-on tinkering and tampering. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
@@ -471,7 +471,8 @@
                           <h3 className="text-4xl font-medium text-[#fefeff]">Analyst, Information Systems</h3>
                           <p className="text-sm text-[#fefeff]">NOW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY</p>
                           <p className="text-sm text-[#969696]">
-                            I am currently working as part of the Desktop team.
+                            I am currently working on the Desktop team where I can dip my toes into everything!
+                            I create lasting relationships with customers in various departments and organizational levels.
                           </p>
                           {/* <p className="text-sm text-[#969696]">
                             Key achievements include implementing responsive designs, optimizing performance, and collaborating with cross-functional teams 
