@@ -82,8 +82,9 @@
       title: "Investors/Founders",
       description: (
         <>
-          I love building passion projects to help you maximize {" "}
-          <span className="hover:text-[#37ab43] transition-colors cursor-default">efficiency and financial value</span> without breaking the bank. 
+          I love building passion projects to help you {" "}
+          <span className="hover:text-[#3743ab] transition-colors cursor-default">maximize efficiency</span> and {" "}
+          <span className="hover:text-[#37ab43] transition-colors cursor-default">financial value</span> without breaking the bank. 
         </>
       ),
       skills: [""]
@@ -92,7 +93,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a creative yet quick study with a knack for finding unique solutions. I learn best by hands-on tinkering and tampering. I’m actively searching for new roles.
+          I’m a quick study able to find unique solutions. I learn best by hands-on tinkering and tampering. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
@@ -471,7 +472,8 @@
                           <h3 className="text-4xl font-medium text-[#fefeff]">Analyst, Information Systems</h3>
                           <p className="text-sm text-[#fefeff]">NOW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY</p>
                           <p className="text-sm text-[#969696]">
-                            I am currently working on the Desktop team where I can dip my toes into everything!
+                            I am currently working on the Desktop team where I can dip my toes into everything! Here, I 
+                            fix hardware & software issues in-house and handle hardware asset compliance. Along the way
                             I create lasting relationships with customers in various departments and organizational levels.
                           </p>
                           {/* <p className="text-sm text-[#969696]">
