@@ -79,7 +79,7 @@
       skills: [""]
     },
     investors: {
-      title: "Investors/Founders",
+      title: "Innovators/Founders",
       description: (
         <>
           I love building passion projects to help you {" "}
@@ -93,7 +93,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a quick study able to find unique solutions. I learn best by hands-on tinkering and tampering. I’m actively searching for new roles.
+          I’m a quick study that learns best with hands-on tinkering and tampering. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
