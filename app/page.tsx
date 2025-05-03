@@ -317,32 +317,6 @@
                         </motion.div>
                       </AnimatePresence>
                     </motion.div>
-                    <div className="flex gap-8 pt-8">
-                          <a
-                              href="mailto:yuenethanw@gmail.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              Email
-                            </a>
-                            <a
-                              href="https://www.linkedin.com/in/ethan-yuen/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              LinkedIn
-                            </a>
-                            <a
-                              href="https://github.com/iflysohigh/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              GitHub
-                            </a>
-                          </div>
                   </div>
                 </section>
 
@@ -482,6 +456,32 @@
                               <div className="absolute top-0 left-0 w-2 h-2 bg-[#fefeff] rounded-full animate-[ping_1.5s_ease-in-out_infinite] opacity-90"></div>
                             </div>
                             <p className="text-l text-[#969696]">Looking for new opportunities.</p>
+                          </div>
+                          <div className="flex gap-8 pt-8">
+                          <a
+                              href="mailto:yuenethanw@gmail.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              Email
+                            </a>
+                            <a
+                              href="https://www.linkedin.com/in/ethan-yuen/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              LinkedIn
+                            </a>
+                            <a
+                              href="https://github.com/iflysohigh/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              GitHub
+                            </a>
                           </div>
                         </div>
                       </div>
