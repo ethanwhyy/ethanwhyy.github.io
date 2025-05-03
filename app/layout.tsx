@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ethan Yuen — Learner",
+  title: "Ethan Yuen — Builder",
   description: "Portfolio",
 };
 

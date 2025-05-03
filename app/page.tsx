@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm a creative and analytic who enjoys long walks, late night talks, and trying new things. 
+          Hiya! I'm a creative and analytic who enjoys long walks, late night talks, and trying new things. Currently in NYC!
         </>
       ),
       skills: [""]
