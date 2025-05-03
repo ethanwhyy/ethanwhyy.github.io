@@ -415,8 +415,9 @@
                     <Image
                       src="/ethan.JPG"
                       alt="Ethan Yuen"
-                      width={350}
-                      height={350}
+                      width={500}
+                      height={500}
+                      className="object-cover"
                       // className="w-full h-full object-cover"
                     />
                   </figure>
