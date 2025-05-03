@@ -27,7 +27,6 @@
       description: (
         <>
           Hiya! I'm Ethan. Currently located in New York City, I'm a creative and analytical thinker who enjoys long walks, late night talks, and building computers. 
-          I love building passion projects to help maximize efficiency and reduce screen time.
         </>
       ),
       skills: [""]
@@ -36,7 +35,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a quick study that learns best with hands-on tinkering and tampering in team environments. I’m actively searching for new roles.
+          I’m a quick study, learning best with hands-on tinkering and tampering. Building minimal apps for personal use. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
@@ -396,7 +395,7 @@
                               href="mailto:yuenethanw@gmail.com"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
                             >
                               yuenethanw@gmail.com
                             </a>
@@ -404,7 +403,7 @@
                               href="https://www.linkedin.com/in/ethan-yuen/"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
                             >
                               LinkedIn
                             </a>
@@ -412,7 +411,7 @@
                               href="https://github.com/iflysohigh/"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
                             >
                               GitHub
                             </a>
