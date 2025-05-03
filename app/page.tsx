@@ -386,7 +386,7 @@
                       </div>
                     </div>
 
-                    <div className="actions grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="actions grid grid-cols-1 sm:grid-cols-3 gap-2">
                       <div className="item">
                         <a
                           href="mailto:yuenethanw@gmail.com"
@@ -421,19 +421,18 @@
                   </div>
 
                   {/* Right Side - Image */}
-                  <div className="image">
-                    <figure className="relative">
-                      <Image
-                        src="/ethan.JPG"
-                        alt="Ethan Yuen"
-                        width={500}
-                        height={500}
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="image-overlay-01 absolute top-0 left-0 w-full h-full" />
-                      <div className="image-overlay-02 absolute top-0 left-0 w-full h-full" />
-                    </figure>
-                  </div>
+                <div className="image flex justify-center items-start">
+                  <figure className="relative w-64 h-64 md:w-80 md:h-80">
+                    <Image
+                      src="/ethan.JPG"
+                      alt="Ethan Yuen"
+                      fill
+                      className="object-cover rounded-lg"
+                    />
+                    <div className="image-overlay-01 absolute top-0 left-0 w-full h-full" />
+                    <div className="image-overlay-02 absolute top-0 left-0 w-full h-full" />
+                  </figure>
+                </div>
                 </motion.div>
               </section>
               </main>
