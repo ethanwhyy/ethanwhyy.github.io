@@ -309,7 +309,8 @@
                 </section>
 
                 {/* About Section */}
-                <section id="about" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16">
+                {/* <section id="about" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16"> */}
+                <section id="about" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
                   <motion.div
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -365,7 +366,8 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16">
+                {/* <section id="contact" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16"> */}
+                <section id="contact" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
                   <motion.div
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -390,7 +392,7 @@
                             </div>
                             <p className="text-l text-[#969696]">Always looking for new opportunities.</p>
                           </div>
-                          <div className="flex gap-8 pt-8">
+                          <div className="flex gap-8 pt-4">
                           <a
                               href="mailto:yuenethanw@gmail.com"
                               target="_blank"
