@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan. Located in New York City, I'm a creative and analytic who enjoys long walks, late night talks, and trying new things. 
+          Hiya! I'm a creative and analytic who enjoys long walks, late night talks, and trying new things. 
         </>
       ),
       skills: [""]
@@ -217,8 +217,6 @@
                 )}
               </AnimatePresence>
 
-              {/* WAS HERE 2 */}
-
               {/* Desktop Navigation */}
               <nav className="hidden md:block fixed left-8 top-1/2 -translate-y-1/2 z-40">
                 {sections.map(({ id, title }) => (
@@ -239,77 +237,75 @@
 
               {/* Main Content */}
               <main className="flex-grow">
-                {/* WAS HERE */}
-
                 <section id="intro" className="min-h-screen px-4 md:px-24 pt-24">
-    <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
-      {/* Header Navigation */}
-      <div className="relative md:static mb-8">
-        {/* Left and Right Gradient Overlays */}
-        <div
-          className="absolute left-0 z-10 w-12 h-full bg-gradient-to-r from-black to-transparent pointer-events-none"
-          style={{
-            opacity: scrollPosition > 0 ? 1 : 0,
-            transition: 'opacity 0.3s ease',
-          }}
-        ></div>
-        <div className="absolute right-0 z-10 w-12 h-full bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
+                  <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
+                    {/* Header Navigation */}
+                    <div className="relative md:static mb-8">
+                      {/* Left and Right Gradient Overlays */}
+                      <div
+                        className="absolute left-0 z-10 w-12 h-full bg-gradient-to-r from-black to-transparent pointer-events-none"
+                        style={{
+                          opacity: scrollPosition > 0 ? 1 : 0,
+                          transition: 'opacity 0.3s ease',
+                        }}
+                      ></div>
+                      <div className="absolute right-0 z-10 w-12 h-full bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
 
-        {/* Scrollable Nav */}
-        <div
-          ref={scrollContainerRef}
-          className="flex gap-4 md:gap-8 justify-start text-sm overflow-x-auto scrollbar-hide pl-4 pr-4"
-          style={{
-            scrollbarWidth: 'none',
-            msOverflowStyle: 'none',
-            WebkitOverflowScrolling: 'touch',
-          }}
-        >
-          {(['anyone', 'recruiters'] as AudienceType[]).map((audience) => (
-            <button
-              key={audience}
-              onClick={() => setSelectedAudience(audience)}
-              className={`transition-colors whitespace-nowrap flex-shrink-0 ${
-                selectedAudience === audience
-                  ? 'text-[#fefeff] font-medium'
-                  : 'text-[#969696] hover:text-[#fefeff]'
-              }`}
-            >
-              {audienceContent[audience].title}
-            </button>
-          ))}
-        </div>
-      </div>
+                      {/* Scrollable Nav */}
+                      <div
+                        ref={scrollContainerRef}
+                        className="flex gap-4 md:gap-8 justify-start text-sm overflow-x-auto scrollbar-hide pl-4 pr-4"
+                        style={{
+                          scrollbarWidth: 'none',
+                          msOverflowStyle: 'none',
+                          WebkitOverflowScrolling: 'touch',
+                        }}
+                      >
+                        {(['anyone', 'recruiters'] as AudienceType[]).map((audience) => (
+                          <button
+                            key={audience}
+                            onClick={() => setSelectedAudience(audience)}
+                            className={`transition-colors whitespace-nowrap flex-shrink-0 ${
+                              selectedAudience === audience
+                                ? 'text-[#fefeff] font-medium'
+                                : 'text-[#969696] hover:text-[#fefeff]'
+                            }`}
+                          >
+                            {audienceContent[audience].title}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
 
-      {/* Intro Content */}
-      <motion.div
-        initial={{ y: 20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.2 }}
-      >
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={selectedAudience}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.5 }}
-          >
-            <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight mb-12 max-w-3xl">
-              {audienceContent[selectedAudience].description}
-            </p>
-            <div className="flex gap-4 flex-wrap">
-              {audienceContent[selectedAudience].skills.map((skill, index) => (
-                <span key={index} className="text-sm text-[#969696]">
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </motion.div>
-        </AnimatePresence>
-      </motion.div>
-    </div>
-  </section>
+                    {/* Intro Content */}
+                    <motion.div
+                      initial={{ y: 20, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ delay: 0.2 }}
+                    >
+                      <AnimatePresence mode="wait">
+                        <motion.div
+                          key={selectedAudience}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -20 }}
+                          transition={{ duration: 0.5 }}
+                        >
+                          <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight mb-12 max-w-3xl">
+                            {audienceContent[selectedAudience].description}
+                          </p>
+                          <div className="flex gap-4 flex-wrap">
+                            {audienceContent[selectedAudience].skills.map((skill, index) => (
+                              <span key={index} className="text-sm text-[#969696]">
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
+                        </motion.div>
+                      </AnimatePresence>
+                    </motion.div>
+                  </div>
+                </section>
 
                 {/* About Section */}
                 <section id="about" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
