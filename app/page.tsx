@@ -423,6 +423,12 @@
                 </section>
               </main>
 
+              {/* Footer */}
+              <footer className="px-4 md:px-24 py-8 text-[#969696] md:ml-16">
+                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                   <span className="text-sm text-center md:text-left">2025; Ethan Yuen</span>
+                 </div>
+               </footer>
             </motion.div>
           )}
         </AnimatePresence>
