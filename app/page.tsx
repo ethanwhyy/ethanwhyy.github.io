@@ -365,7 +365,7 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="min-h-screen px-4 md:px-24 md:py-4 md:ml-16 section contact">
+                <section id="contact" className="min-h-screen md:px-24 md:ml-16 section contact">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
