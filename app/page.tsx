@@ -365,7 +365,7 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16 section contact">
+                <section id="contact" className="min-h-screen px-4 md:px-24 md:py-4 md:ml-16 section contact">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
@@ -378,10 +378,10 @@
                     <div className="content space-y-6">
                       <div className="look flex items-center gap-2">
                         <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
-                      </div>
-                      <div className="status text-[#969696] text-xl">
+                        <div className="status text-[#969696] text-xl">
                           <h3>Always looking for new opportunities.</h3>
                         </div>
+                      </div>
                     </div>
 
                     <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-4">
@@ -418,8 +418,6 @@
                       height={400}
                       className="w-full h-full object-cover"
                     />
-                    <div className="image-overlay-01 absolute top-0 left-0 w-full h-full" />
-                    <div className="image-overlay-02 absolute top-0 left-0 w-full h-full" />
                   </figure>
                 </div>
                 </motion.div>
