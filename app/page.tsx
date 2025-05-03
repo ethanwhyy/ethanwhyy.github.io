@@ -309,6 +309,62 @@
                 </section>
 
                 {/* About Section */}
+                <section id="about" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
+                  <motion.div
+                    initial={{ y: 100, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true }}
+                    className="max-w-5xl"
+                  >
+                    <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
+                    <div className="grid md:grid-cols-3 gap-8">
+                      <div className="md:col-span-1 md:col-start-2">
+                        <div className="space-y-8">
+                          <p className="text-sm text-[#fefeff]">
+                          I'm a lifelong learner and strategist with an eye for detail and the ability to quickly pick up skills.
+                          I thrive in fast-paced environments and enjoy working on products I'm passionate about. 
+                          </p>
+                        </div>
+                      </div>
+                      
+                      <div className="md:col-span-1 md:col-start-3 md:mt-32">
+                        <div className="space-y-8">
+                          <p className="text-sm text-[#fefeff]">
+                          My skillset allows me to design solutions that align company and personal objectives/goals.
+                          I build simple and effective products to save time and allow people to pursue their dreams!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* <br /> */}
+                    <br />
+                    
+                    <div className="grid md:grid-cols-3 gap-8">
+                      <div className="md:col-span-1 md:col-start-2">
+                        <div className="space-y-8">
+                          <p className="text-sm text-[#fefeff]">
+                            In my free time I enjoy taking photos, trying new food, and 
+                            striking conversations with people on the streets of New York City. If I'm not exploring
+                            you can find me reading a good book, in the gym, or discovering new music.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="md:col-span-1 md:col-start-3 md:mt-32">
+                        <div className="space-y-8">
+                          <p className="text-sm text-[#fefeff]">
+                            I want to encourage others to chase their dreams, be it a startup, writing a novel,
+                            or traveling the world. Let's build something together :)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                </section>
+
+                {/* Contact Section */}
                 <section id="contact" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16 section contact">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
@@ -327,10 +383,6 @@
 
                       <div className="status text-[#969696]">
                         <h3>Always looking for new opportunities.</h3>
-                      </div>
-
-                      <div className="interest">
-                        <h2 className="text-2xl text-[#fefeff] pt-[0.14em]">Let’s connect and build something great.</h2>
                       </div>
                     </div>
 
