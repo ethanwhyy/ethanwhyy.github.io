@@ -379,10 +379,9 @@
                       <div className="look flex items-center gap-2">
                         <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
                       </div>
-
-                      <div className="status text-[#969696]">
-                        <h3>Always looking for new opportunities.</h3>
-                      </div>
+                      <div className="status text-[#969696] text-xl">
+                          <h3>Always looking for new opportunities.</h3>
+                        </div>
                     </div>
 
                     <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-4">
