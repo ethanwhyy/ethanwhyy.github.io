@@ -15,55 +15,9 @@
 
   const sections = [
     { id: "intro", title: "Intro" },
-    { id: "work", title: "Projects" },
     { id: "background", title: "Work" },
     { id: "about", title: "About" },
     { id: "contact", title: "Contact" }
-  ];
-
-  const workProjects = [
-    {
-      title: "Pomodoro Timer",
-      description: "A simple Pomodoro Timer to help curb distractions from my ADHD-riddled brain.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      link: "https://iflysohigh.github.io/PomodoroTimer/",
-      platforms: [
-        { icon: TbWorld, color: "#4285F4" },
-        // { icon: FaWindows, color: "#00A4EF" },
-        // { icon: FcLinux }
-      ]
-    },
-    {
-      title: "Old Portfolio", 
-      description: "Spotify-Based portfolio with information turnstiles. Also shows my favorite music!",
-      tags: ["HTML", "CSS", "JavaScript"],
-      link: "https://iflysohigh.github.io/OldPortfolio/",
-      platforms: [
-        { icon: TbWorld, color: "#4285F4" },
-        // { icon: FaBitcoin, color: "#F7931A" }
-      ]
-    },
-    // {
-    //   title: "NY Housing Data", 
-    //   description: "(School project) Create several data visualizations to better understand the NYC housing market.",
-    //   tags: ["R Shiny", "HTML"],
-    //   link: "https://iflysohigh.shinyapps.io/projectyuen/",
-    //   platforms: [
-    //     { icon: TbWorld, color: "#4285F4" },
-    //     // { icon: FaBitcoin, color: "#F7931A" }
-    //   ]
-    // },
-
-    // {
-    //   title: "Black Scholes", 
-    //   description: "A quick & easy Black Scholes model, demonstrating my former desire of quant.",
-    //   tags: ["HTML", "CSS", "JavaScript"],
-    //   link: "https://iflysohigh.github.io/BlackScholes/",
-    //   platforms: [
-    //     { icon: TbWorld, color: "#4285F4" },
-    //     // { icon: FaBitcoin, color: "#F7931A" }
-    //   ]
-    // },
   ];
 
   type AudienceType = 'anyone' | 'investors' | 'recruiters';
@@ -97,42 +51,7 @@
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
-    },
-    // "economists": {
-    //   title: "Economists",
-    //   description: (
-    //     <>
-    //       I've written Economic papers on topics such as {" "}
-    //       <a 
-    //         href="/Effects of TCJA TCR on Shareholder Payouts.pdf" 
-    //         target="_blank" 
-    //         rel="noopener noreferrer" 
-    //         className="transition-colors hover:text-sky-500"
-    //         style={{ display: "inline-flex"}}
-    //       > thin-cap rates&#x2197;
-    //       </a>,
-    //       <a 
-    //         href="/EV Tax Credit Impact on Stock Price.pdf" 
-    //         target="_blank" 
-    //         rel="noopener noreferrer" 
-    //         className="transition-colors hover:text-sky-500"
-    //         style={{ display: "inline-flex"}}
-    //       > EV tax credits&#x2197; 
-    //       </a>, 
-    //       <a 
-    //         href="/Inflation Target impact on Inflation Rate.pdf" 
-    //         target="_blank" 
-    //         rel="noopener noreferrer" 
-    //         className="transition-colors hover:text-sky-500"
-    //         style={{ display: "inline-flex"}}
-    //       > inflation policies&#x2197;
-    //       </a>,
-    //       <br></br>
-    //       and more!
-    //     </>
-    //   ),
-    //   skills: [""]
-    // },
+    }
   };
 
   export default function Home() {
@@ -399,51 +318,6 @@
                       </AnimatePresence>
                     </motion.div>
                   </div>
-                </section>
-
-                {/* Work Section */}
-                <section id="work" className="min-h-screen px-4 md:px-24 py-8 md:py-32 md:ml-16"> {/* Adjusted padding-top to 8 */}
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="max-w-5xl"
-                  >
-                    <div className="grid md:grid-cols-3 gap-8">
-                      <div className="md:col-span-2 md:col-start-2">
-                        <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">projects.</h2>
-                        <div className="grid gap-8 md:gap-16 max-w-2xl">
-                          {workProjects.map((project, index) => (
-                            <motion.div
-                              key={index}
-                              className="group"
-                              whileHover={{ y: -10 }}
-                            >
-                              <a href={project.link} target="_blank" rel="noopener noreferrer" className="block p-4 md:p-8 border border-[#969696] rounded-lg hover:border-[#969696] transition-colors relative">
-                                <h3 className="text-xl md:text-2xl font-medium mb-4">{project.title}</h3>
-                                <p className="text-sm text-[#fefeff] mb-6">{project.description}</p>
-                                <div className="flex flex-wrap gap-4">
-                                  {project.tags.map((tag, tagIndex) => (
-                                    <span key={tagIndex} className="text-sm text-[#969696]">{tag}</span>
-                                  ))}
-                                </div>
-                                <div className="absolute top-4 right-4 flex gap-2">
-                                  {project.platforms.map((Platform, i) => (
-                                    <Platform.icon 
-                                      key={i} 
-                                      className="text-xl"
-                                      style={Platform.color ? { color: Platform.color } : {}}
-                                    />
-                                  ))}
-                                </div>
-                              </a>
-                            </motion.div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
                 </section>
 
                 {/* Background Section */}
