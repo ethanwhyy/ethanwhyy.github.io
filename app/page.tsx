@@ -377,7 +377,6 @@
                   <div className="text flex flex-col justify-between space-y-8">
                     <div className="content space-y-6">
                       <div className="look flex items-center gap-2">
-                        <div className="radius w-3 h-3 rounded-full bg-[#969696]" />
                         <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
                       </div>
 
@@ -386,7 +385,7 @@
                       </div>
                     </div>
 
-                    <div className="actions grid grid-cols-1 sm:grid-cols-3 gap-2">
+                    <div className="actions grid grid-cols-3 sm:grid-cols-3 gap-2">
                       <div className="item">
                         <a
                           href="mailto:yuenethanw@gmail.com"
@@ -421,13 +420,14 @@
                   </div>
 
                   {/* Right Side - Image */}
-                <div className="image flex justify-center items-start">
-                  <figure className="relative w-64 h-64 md:w-80 md:h-80">
+                  <div className="image">
+                  <figure className="relative">
                     <Image
                       src="/ethan.JPG"
                       alt="Ethan Yuen"
-                      fill
-                      className="object-cover rounded-lg"
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover"
                     />
                     <div className="image-overlay-01 absolute top-0 left-0 w-full h-full" />
                     <div className="image-overlay-02 absolute top-0 left-0 w-full h-full" />
