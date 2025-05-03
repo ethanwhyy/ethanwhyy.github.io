@@ -15,7 +15,6 @@
 
   const sections = [
     { id: "intro", title: "Intro" },
-    { id: "background", title: "Work" },
     { id: "about", title: "About" },
     { id: "contact", title: "Contact" }
   ];
@@ -27,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan, an NYC-based entrepreneur & experimentalist who enjoys long walks, late night talks, and naps.
+          Hiya! I'm Ethan, an NYC-based creative and analytical thinker who enjoys long walks, late night talks, and building computers.
         </>
       ),
       skills: [""]
@@ -36,9 +35,8 @@
       title: "Innovators/Founders",
       description: (
         <>
-          I love building passion projects to help you {" "}
-          <span className="hover:text-[#3743ab] transition-colors cursor-default">maximize efficiency</span> and {" "}
-          <span className="hover:text-[#37ab43] transition-colors cursor-default">financial value</span> without breaking the bank. 
+          I love building personal and passion projects to help {" "}
+          <span className="hover:text-[#37ab43] transition-colors cursor-default">maximize efficiency</span> without breaking the bank. 
         </>
       ),
       skills: [""]
@@ -47,7 +45,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a quick study that learns best with hands-on tinkering and tampering. I’m actively searching for new roles.
+          I’m a quick study that learns best with hands-on tinkering and tampering in team environments. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
@@ -318,61 +316,6 @@
                       </AnimatePresence>
                     </motion.div>
                   </div>
-                </section>
-
-                {/* Background Section */}
-                <section id="background" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16">
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="max-w-5xl"
-                  >
-                    <div className="grid md:grid-cols-3 gap-8">
-                      <div className="md:col-span-2 md:col-start-2">
-                      <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">work.</h2>
-                        <div className="relative w-48 h-40 flex-shrink-0 mb-4">
-                          <Image
-                            src="/smbc_logo_white.svg"
-                            alt="Sumitomo Mitsui Banking Corp Logo"
-                            fill
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                            style={{ objectFit: "contain" }}
-                          />
-                        </div>
-                        <div className="space-y-4 max-w-2xl">
-                          <p className="font-mono text-sm text-[#969696]">SUMITOMO MITSUI BANKING CORPORATION</p>
-                          <h3 className="text-4xl font-medium text-[#fefeff]">Analyst, Information Systems</h3>
-                          <p className="text-sm text-[#fefeff]">NOW &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY</p>
-                          <p className="text-sm text-[#969696]">
-                            I am currently working on the Desktop team where I can dip my toes into everything! Here, I 
-                            fix hardware & software issues in-house and handle hardware asset compliance. Along the way
-                            I create lasting relationships with customers in various departments and organizational levels.
-                          </p>
-                        </div>
-                        <div className="relative w-48 h-40 flex-shrink-0 mb-4">
-                          <Image
-                            src="/smbc_logo_white.svg"
-                            alt="Sumitomo Mitsui Banking Corp Logo"
-                            fill
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                            style={{ objectFit: "contain" }}
-                          />
-                        </div>
-                          <div className="space-y-4 max-w-2xl">
-                            <p className="font-mono text-sm text-[#969696]">SUMITOMO MITSUI BANKING CORPORATION</p>
-                            <h3 className="text-4xl font-medium text-[#fefeff]">Intern, Data Center Operations</h3>
-                            <p className="text-sm text-[#fefeff]">2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York, NY</p>
-                            <p className="text-sm text-[#969696]">
-                              I researched and onboarded several Data Center Infrastructure Management systems, ultimately
-                              selecting the best solution based on SMBC criterium. I also developed several data governance and 
-                              hardware reference designs to improve efficiency of IT Asset Management. 
-                            </p>
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
                 </section>
 
                 {/* About Section */}
