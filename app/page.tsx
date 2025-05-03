@@ -365,7 +365,8 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="min-h-screen md:px-24 md:ml-16 section contact">
+                {/* <section id="contact" className="min-h-screen md:px-24 md:ml-16 section contact"> */}
+                <section id="contact" className="md:px-24 md:ml-16 section contact">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
@@ -378,7 +379,7 @@
                     <div className="content space-y-6">
                       <div className="look flex items-center gap-2">
                         <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
-                        <div className="status text-[#969696] text-xl">
+                        <div className="status text-[#969696] text-2xl">
                           <h3>Always looking for new opportunities.</h3>
                         </div>
                       </div>
@@ -386,25 +387,25 @@
 
                     <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-4">
                       <div className="item">
-                        <a
-                          href="mailto:yuenethanw@gmail.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                        >
-                          yuenethanw@gmail.com
-                        </a>
-                      </div>
-                      <div className="item">
-                        <a
-                          href="https://www.linkedin.com/in/ethan-yuen/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                        >
-                          LinkedIn
-                        </a>
-                      </div>
+                          <a
+                            href="mailto:yuenethanw@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
+                          >
+                            yuenethanw@gmail.com
+                          </a>
+                        </div>
+                        <div className="item">
+                          <a
+                            href="https://www.linkedin.com/in/ethan-yuen/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
+                          >
+                            LinkedIn
+                          </a>
+                        </div>
                     </div>
                   </div>
 
