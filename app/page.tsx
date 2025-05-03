@@ -309,128 +309,82 @@
                 </section>
 
                 {/* About Section */}
-                {/* <section id="about" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16"> */}
-                <section id="about" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="max-w-5xl"
-                  >
-                    <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
-                    <div className="grid md:grid-cols-3 gap-8">
-                      <div className="md:col-span-1 md:col-start-2">
-                        <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
-                          I'm a lifelong learner and strategist with an eye for detail and the ability to quickly pick up skills.
-                          I thrive in fast-paced environments and enjoy working on products I'm passionate about. 
-                          </p>
-                        </div>
+                <section id="contact" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16 section contact">
+                <motion.div
+                  initial={{ y: 100, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="content grid md:grid-cols-2 gap-8"
+                >
+                  {/* Left Side - Text */}
+                  <div className="text flex flex-col justify-between space-y-8">
+                    <div className="content space-y-6">
+                      <div className="look flex items-center gap-2">
+                        <div className="radius w-3 h-3 rounded-full bg-[#969696]" />
+                        <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
                       </div>
-                      
-                      <div className="md:col-span-1 md:col-start-3 md:mt-32">
-                        <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
-                          My skillset allows me to design solutions that align company and personal objectives/goals.
-                          I build simple and effective products to save time and allow people to pursue their dreams!
-                          </p>
-                        </div>
+
+                      <div className="status text-[#969696]">
+                        <h3>Always looking for new opportunities.</h3>
+                      </div>
+
+                      <div className="interest">
+                        <h2 className="text-2xl text-[#fefeff] pt-[0.14em]">Let’s connect and build something great.</h2>
                       </div>
                     </div>
 
-                    {/* <br /> */}
-                    <br />
-                    
-                    <div className="grid md:grid-cols-3 gap-8">
-                      <div className="md:col-span-1 md:col-start-2">
-                        <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
-                            In my free time I enjoy taking photos, trying new food, and 
-                            striking conversations with people on the streets of New York City. If I'm not exploring
-                            you can find me reading a good book, in the gym, or discovering new music.
-                          </p>
-                        </div>
+                    <div className="actions grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="item">
+                        <a
+                          href="mailto:yuenethanw@gmail.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
+                        >
+                          yuenethanw@gmail.com
+                        </a>
                       </div>
-
-                      <div className="md:col-span-1 md:col-start-3 md:mt-32">
-                        <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
-                            I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Let's build something together :)
-                          </p>
-                        </div>
+                      <div className="item">
+                        <a
+                          href="https://www.linkedin.com/in/ethan-yuen/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
+                        >
+                          LinkedIn
+                        </a>
                       </div>
-                    </div>
-                  </motion.div>
-                </section>
-
-                {/* Contact Section */}
-                {/* <section id="contact" className="min-h-screen px-4 md:px-24 py-16 md:py-32 md:ml-16"> */}
-                <section id="contact" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
-                  <motion.div
-                    initial={{ y: 100, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="max-w-5xl"
-                  >
-                    <div className="grid md:grid-cols-3 gap-8">
-                      <div className="md:col-span-2 md:col-start-2">
-                        <div className="space-y-8 max-w-2xl">
-                          <Image
-                            src="/ethan.JPG"
-                            alt="Ethan Yuen"
-                            width={500}
-                            height={300}
-                            className="mb-8"
-                          />
-                          <div className="flex items-center gap-2">
-                            <div className="relative">
-                              <div className="w-2 h-2 bg-[#fefeff] rounded-full animate-pulse"></div>
-                              <div className="absolute top-0 left-0 w-2 h-2 bg-[#fefeff] rounded-full animate-[ping_1.5s_ease-in-out_infinite] opacity-90"></div>
-                            </div>
-                            <p className="text-l text-[#969696]">Always looking for new opportunities.</p>
-                          </div>
-                          <div className="flex gap-8 pt-4">
-                          <a
-                              href="mailto:yuenethanw@gmail.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                            >
-                              yuenethanw@gmail.com
-                            </a>
-                            <a
-                              href="https://www.linkedin.com/in/ethan-yuen/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                            >
-                              LinkedIn
-                            </a>
-                            <a
-                              href="https://github.com/iflysohigh/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                            >
-                              GitHub
-                            </a>
-                          </div>
-                        </div>
+                      <div className="item">
+                        <a
+                          href="https://github.com/iflysohigh/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
+                        >
+                          GitHub
+                        </a>
                       </div>
                     </div>
-                  </motion.div>
-                </section>
+                  </div>
+
+                  {/* Right Side - Image */}
+                  <div className="image">
+                    <figure className="relative">
+                      <Image
+                        src="/ethan.JPG"
+                        alt="Ethan Yuen"
+                        width={500}
+                        height={500}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="image-overlay-01 absolute top-0 left-0 w-full h-full" />
+                      <div className="image-overlay-02 absolute top-0 left-0 w-full h-full" />
+                    </figure>
+                  </div>
+                </motion.div>
+              </section>
               </main>
-
-              {/* Footer */}
-              <footer className="px-4 md:px-24 py-8 text-[#969696] md:ml-16">
-                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                   <span className="text-sm text-center md:text-left">2025; Ethan Yuen</span>
-                 </div>
-               </footer>
             </motion.div>
           )}
         </AnimatePresence>
