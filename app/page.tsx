@@ -355,7 +355,7 @@
                             to deliver high-quality software solutions.
                           </p> */}
                         </div>
-                        <div className="mt-16">
+                        {/* <div className="mt-16"> */}
                         <div className="relative w-48 h-40 flex-shrink-0 mb-4">
                           <Image
                             src="/smbc_logo_white.svg"
@@ -375,7 +375,7 @@
                               hardware reference designs to improve efficiency of IT Asset Management. 
                             </p>
                             
-                          </div>
+                          {/* </div> */}
                         </div>
                       </div>
                     </div>
