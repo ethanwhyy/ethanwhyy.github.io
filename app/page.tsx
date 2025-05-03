@@ -317,6 +317,32 @@
                         </motion.div>
                       </AnimatePresence>
                     </motion.div>
+                    <div className="flex gap-8 pt-8">
+                          <a
+                              href="mailto:yuenethanw@gmail.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              Email
+                            </a>
+                            <a
+                              href="https://www.linkedin.com/in/ethan-yuen/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              LinkedIn
+                            </a>
+                            <a
+                              href="https://github.com/iflysohigh/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                            >
+                              GitHub
+                            </a>
+                          </div>
                   </div>
                 </section>
 
@@ -350,12 +376,6 @@
                             fix hardware & software issues in-house and handle hardware asset compliance. Along the way
                             I create lasting relationships with customers in various departments and organizational levels.
                           </p>
-                          {/* <p className="text-sm text-[#969696]">
-                            Key achievements include implementing responsive designs, optimizing performance, and collaborating with cross-functional teams 
-                            to deliver high-quality software solutions.
-                          </p> */}
-                        </div>
-                        {/* <div className="mt-16"> */}
                         <div className="relative w-48 h-40 flex-shrink-0 mb-4">
                           <Image
                             src="/smbc_logo_white.svg"
@@ -374,8 +394,6 @@
                               selecting the best solution based on SMBC criterium. I also developed several data governance and 
                               hardware reference designs to improve efficiency of IT Asset Management. 
                             </p>
-                            
-                          {/* </div> */}
                         </div>
                       </div>
                     </div>
@@ -464,32 +482,6 @@
                               <div className="absolute top-0 left-0 w-2 h-2 bg-[#fefeff] rounded-full animate-[ping_1.5s_ease-in-out_infinite] opacity-90"></div>
                             </div>
                             <p className="text-l text-[#969696]">Looking for new opportunities.</p>
-                          </div>
-                          <div className="flex gap-8 pt-8">
-                          <a
-                              href="mailto:yuenethanw@gmail.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              Email
-                            </a>
-                            <a
-                              href="https://www.linkedin.com/in/ethan-yuen/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              LinkedIn
-                            </a>
-                            <a
-                              href="https://github.com/iflysohigh/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
-                            >
-                              GitHub
-                            </a>
                           </div>
                         </div>
                       </div>
