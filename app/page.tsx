@@ -385,7 +385,7 @@
                       </div>
                     </div>
 
-                    <div className="actions grid grid-cols-3 sm:grid-cols-3 gap-2">
+                    <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-4">
                       <div className="item">
                         <a
                           href="mailto:yuenethanw@gmail.com"
@@ -404,16 +404,6 @@
                           className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
                         >
                           LinkedIn
-                        </a>
-                      </div>
-                      <div className="item">
-                        <a
-                          href="https://github.com/iflysohigh/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                        >
-                          GitHub
                         </a>
                       </div>
                     </div>
