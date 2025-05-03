@@ -355,9 +355,6 @@
                             to deliver high-quality software solutions.
                           </p> */}
                         </div>
-                        <br />
-                        <br />
-                        <br />
                         <div className="mt-16">
                         <div className="relative w-48 h-40 flex-shrink-0 mb-4">
                           <Image
