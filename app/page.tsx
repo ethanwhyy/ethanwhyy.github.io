@@ -242,8 +242,7 @@
                 {/* WAS HERE */}
 
                 <section id="intro" className="min-h-screen px-4 md:px-24 pt-24">
-    {/* Combined Header and Intro */}
-    <div className="max-w-7xl mx-auto">
+    <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
       {/* Header Navigation */}
       <div className="relative md:static mb-8">
         {/* Left and Right Gradient Overlays */}
@@ -282,12 +281,11 @@
         </div>
       </div>
 
-      {/* Intro Content - Left Aligned & Shifted Right */}
+      {/* Intro Content */}
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="pl-4 md:pl-24"
       >
         <AnimatePresence mode="wait">
           <motion.div
