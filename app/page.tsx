@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan. Currently located in New York City, I'm a creative and analytical thinker who enjoys long walks, late night talks, and building computers. 
+          Hiya! I'm Ethan. Located in New York City, I'm a creative and analytic who enjoys long walks, late night talks, and building computers. 
         </>
       ),
       skills: [""]
@@ -35,7 +35,7 @@
       title: "Recruiters",
       description: (
         <>
-          I’m a quick study, learning best with hands-on tinkering and tampering. Building minimal apps for personal use. I’m actively searching for new roles.
+          A quick study, learning best hands-on. Building minimal apps to be efficient. I’m actively searching for new roles.
         </>
       ),
       skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
