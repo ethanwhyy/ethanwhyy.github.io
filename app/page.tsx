@@ -417,7 +417,7 @@
                       alt="Ethan Yuen"
                       width={350}
                       height={350}
-                      className="w-full h-full object-cover"
+                      // className="w-full h-full object-cover"
                     />
                   </figure>
                 </div>
