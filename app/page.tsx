@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan, an NYC-based creative and analytical thinker who enjoys long walks, late night talks, and building computers.
+          Hiya! I'm Ethan, a creative and analytical thinker who enjoys long walks, late night talks, and building computers. Currently located in New York City. 
         </>
       ),
       skills: [""]
@@ -37,6 +37,7 @@
         <>
           I love building personal and passion projects to help {" "}
           <span className="hover:text-[#37ab43] transition-colors cursor-default">maximize efficiency</span> without breaking the bank. 
+          Currently working on a few minimalist apps!
         </>
       ),
       skills: [""]
