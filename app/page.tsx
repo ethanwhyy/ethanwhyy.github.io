@@ -19,25 +19,15 @@
     { id: "contact", title: "Contact" }
   ];
 
-  type AudienceType = 'anyone' | 'investors' | 'recruiters';
+  type AudienceType = 'anyone' | 'recruiters';
 
   const audienceContent = {
     anyone: {
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm Ethan, a creative and analytical thinker who enjoys long walks, late night talks, and building computers. Currently located in New York City. 
-        </>
-      ),
-      skills: [""]
-    },
-    investors: {
-      title: "Innovators/Founders",
-      description: (
-        <>
-          I love building personal and passion projects to help {" "}
-          <span className="hover:text-[#37ab43] transition-colors cursor-default">maximize efficiency</span> without breaking the bank. 
-          Currently working on a few minimalist apps!
+          Hiya! I'm Ethan. Currently located in New York City, I'm a creative and analytical thinker who enjoys long walks, late night talks, and building computers. 
+          I love building passion projects to help maximize efficiency and reduce screen time.
         </>
       ),
       skills: [""]
@@ -250,7 +240,7 @@
                       paddingRight: '1rem'
                     }}
                   >
-                    {(['anyone', 'investors', 'recruiters'] as AudienceType[]).map((audience) => (
+                    {(['anyone', 'recruiters'] as AudienceType[]).map((audience) => (
                       <button
                         key={audience}
                         onClick={() => setSelectedAudience(audience)}
@@ -394,28 +384,27 @@
                             height={300}
                             className="mb-8"
                           />
-                          <p className="text-xl md:text-xl text-[#fefeff] underline">yuenethanw@gmail.com</p>
                           <div className="flex items-center gap-2">
                             <div className="relative">
                               <div className="w-2 h-2 bg-[#fefeff] rounded-full animate-pulse"></div>
                               <div className="absolute top-0 left-0 w-2 h-2 bg-[#fefeff] rounded-full animate-[ping_1.5s_ease-in-out_infinite] opacity-90"></div>
                             </div>
-                            <p className="text-l text-[#969696]">Looking for new opportunities.</p>
+                            <p className="text-l text-[#969696]">Always looking for new opportunities.</p>
                           </div>
                           <div className="flex gap-8 pt-8">
                           <a
                               href="mailto:yuenethanw@gmail.com"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
                             >
-                              Email
+                              yuenethanw@gmail.com
                             </a>
                             <a
                               href="https://www.linkedin.com/in/ethan-yuen/"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
                             >
                               LinkedIn
                             </a>
@@ -423,7 +412,7 @@
                               href="https://github.com/iflysohigh/"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm"
+                              className="text-[#969696] hover:text-[#fefeff] transition-colors text-sm underline"
                             >
                               GitHub
                             </a>
@@ -435,12 +424,6 @@
                 </section>
               </main>
 
-              {/* Footer */}
-              <footer className="px-4 md:px-24 py-8 text-[#969696] md:ml-16">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                  <span className="text-sm text-center md:text-left">© 2025 Ethan Yuen.</span>
-                </div>
-              </footer>
             </motion.div>
           )}
         </AnimatePresence>
