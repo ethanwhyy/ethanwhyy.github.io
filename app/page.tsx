@@ -350,6 +350,7 @@
                             fix hardware & software issues in-house and handle hardware asset compliance. Along the way
                             I create lasting relationships with customers in various departments and organizational levels.
                           </p>
+                        </div>
                         <div className="relative w-48 h-40 flex-shrink-0 mb-4">
                           <Image
                             src="/smbc_logo_white.svg"
