@@ -355,7 +355,7 @@
                     </div> */}
 
                     <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
-                    <div className="grid md:grid-cols- md:grid-rows-3 gap-8">
+                    <div className="grid md:grid-cols-3 md:grid-rows-3 gap-8">
                       {/* Block 1: Row 1, Col 1 */}
                       <div className="md:row-start-1 md:col-start-2">
                         <div className="space-y-8">
