@@ -328,7 +328,6 @@
                         </div>
                       </div>
 
-                      <br />
 
                       <div className="md:col-span-1 md:col-start-3">
                         <div className="space-y-8">
