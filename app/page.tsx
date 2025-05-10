@@ -321,8 +321,8 @@
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
-                          I'm a lifelong learner and strategist with an eye for detail and the ability to quickly pick up skills.
-                          I thrive in fast-paced environments and enjoy working on products I'm passionate about. 
+                          Ethan is a curious and thoughtful person with an eye for detail. He picks up new skills quickly and thrives 
+                          in fast-paced environments. He lives in New York City and maximizes his time spent outside.
                           </p>
                         </div>
                       </div>
@@ -330,41 +330,41 @@
                       <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
-                          My skillset allows me to design solutions that align company and personal objectives/goals.
-                          I build simple and effective products to save time and allow people to pursue their dreams!
+                            A recent college grad, Ethan currently works IT within the banking industry. He is passionate about problem-solving, 
+                            enjoys working with people, and has an strong reputation for reliability and efficiency. He's always learning — 
+                            as we speak, he is knee-deep into personal finance and retirement planning (and pairs-trading strategies!). He also loves tinkering with 
+                            thing and is currently full-stacking minimalist and lightweight iOS apps with Swift. 
                           </p>
                         </div>
                       </div>
                     </div>
 
-                    {/* <br /> */}
                     <br />
                     
                     <div className="grid md:grid-cols-3 gap-8">
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
-                            In my free time I enjoy taking photos, trying new food, and 
-                            striking conversations with people on the streets of New York City. If I'm not exploring
-                            you can find me reading a good book, in the gym, or discovering new music.
+                            In his free time he enjoys trying new food, watching a seemingly endless list of movies, and 
+                            striking up conversation with people on the streets. When he's not exploring
+                            you can find him reading a good book, hanging out with friends & family, or discovering new music. 
+                            His current on-loop artist is Celeste, and he is open to new recommendations!
                           </p>
                         </div>
                       </div>
 
-                      <div className="md:col-span-1 md:col-start-3 md:mt-32">
+                      {/* <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
                           <p className="text-sm text-[#fefeff]">
-                            I want to encourage others to chase their dreams, be it a startup, writing a novel,
-                            or traveling the world. Let's build something together :)
+                            He would love to connect with like-minded people. 
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </motion.div>
                 </section>
 
                 {/* Contact Section */}
-                {/* <section id="contact" className="min-h-screen md:px-24 md:ml-16 section contact"> */}
                 <section id="contact" className="md:px-24 md:ml-16 section contact">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
@@ -376,15 +376,15 @@
                   {/* Left Side - Text */}
                   <div className="text flex flex-col justify-between space-y-8">
                     <div className="content space-y-6">
-                      <div className="look flex items-center gap-2">
-                        <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
-                        <div className="status text-[#969696] text-2xl">
-                          <h3>Always looking for new opportunities.</h3>
-                        </div>
+                    <div className="look flex items-center gap-2 px-4">
+                      <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
+                      <div className="status text-[#969696] text-2xl">
+                        <h3>Always looking for new opportunities.</h3>
                       </div>
                     </div>
+                    </div>
 
-                    <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-4">
+                    <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-8">
                       <div className="item">
                           <a
                             href="mailto:yuenethanw@gmail.com"
