@@ -147,7 +147,7 @@
             >
               {/* Logo */}
               <motion.div 
-                className="fixed top-8 left-4 md:left-8 z-50 cursor-pointer"
+                className="fixed top-8 left-4 md:left-8 z-50 cursor-pointer hidden md:flex"
                 onHoverStart={() => setIsNameExpanded(true)}
                 onHoverEnd={() => setIsNameExpanded(false)}
                 onClick={handleLogoClick}
