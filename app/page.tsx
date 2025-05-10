@@ -331,8 +331,8 @@
                       <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
                           <p className="text-[#fefeff]">
-                            Ethan currently works IT within the banking industry. He is passionate about problem-solving, 
-                            enjoys working with people, and has a reputation for reliability and efficiency. He's knee-deep into personal 
+                            He currently works IT within the banking industry. Ethan is passionate about problem-solving, 
+                            enjoys working with people, and has a reputation for reliability and efficiency. He is knee-deep into personal 
                             finance (and pairs-trading strategies!) and is currently full-stacking a minimalist and lean iOS app with Swift. 
                           </p>
                         </div>
