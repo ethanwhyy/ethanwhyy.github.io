@@ -327,27 +327,29 @@
                           </p>
                         </div>
                       </div>
+
+                      <br />
                       
                       <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
-                          <p className="text-[#fefeff]">
-                            A recent college grad, Ethan currently works IT within the banking industry. He is passionate about problem-solving, 
-                            enjoys working with people, and has an strong reputation for reliability and efficiency. He's always learning — 
-                            as we speak, he is knee-deep into personal finance and retirement planning (and pairs-trading strategies!). He also loves tinkering with 
-                            thing and is currently full-stacking minimalist and lightweight iOS apps with Swift. 
+                          <p className="text-sm text-[#fefeff]">
+                            Ethan currently works IT within the banking industry. He is passionate about problem-solving, 
+                            enjoys working with people, and has a reputation for reliability and efficiency. He's knee-deep into personal 
+                            finance (and pairs-trading strategies!) and is currently full-stacking a minimalist and lean iOS app with Swift. 
                           </p>
                         </div>
                       </div>
                     </div>
+
+                    <br />
                     
                     <div className="grid md:grid-cols-3 gap-8">
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
                           <p className="text-[#fefeff]">
                             In his free time he enjoys trying new food, watching a seemingly endless list of movies, and 
-                            striking up conversation with people on the streets. When he's not exploring
-                            you can find him reading a good book, hanging out with friends & family, or discovering new music. 
-                            His current on-loop artist is Celeste, and he is open to new recommendations!
+                            striking up conversation with people on the streets. You can find him reading a good book, hanging out with friends & 
+                            family, or discovering new music. He is always open to new recommendations!
                           </p>
                         </div>
                       </div>
