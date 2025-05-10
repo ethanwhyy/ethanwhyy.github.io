@@ -320,16 +320,17 @@
                     <div className="grid md:grid-cols-3 gap-8">
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
+                          <p className="text-[#fefeff]">
                           Ethan is a curious and thoughtful person with an eye for detail. He picks up new skills quickly and thrives 
-                          in fast-paced environments. He lives in New York City and maximizes his time spent outside.
+                          in fast-paced environments. He lives in New York City and maximizes his time spent outside. He has no pets and would
+                          love -- should his landlord allow -- to adopt one in the near future.
                           </p>
                         </div>
                       </div>
                       
                       <div className="md:col-span-1 md:col-start-3 md:mt-32">
                         <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
+                          <p className="text-[#fefeff]">
                             A recent college grad, Ethan currently works IT within the banking industry. He is passionate about problem-solving, 
                             enjoys working with people, and has an strong reputation for reliability and efficiency. He's always learning — 
                             as we speak, he is knee-deep into personal finance and retirement planning (and pairs-trading strategies!). He also loves tinkering with 
@@ -338,13 +339,11 @@
                         </div>
                       </div>
                     </div>
-
-                    <br />
                     
                     <div className="grid md:grid-cols-3 gap-8">
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
+                          <p className="text-[#fefeff]">
                             In his free time he enjoys trying new food, watching a seemingly endless list of movies, and 
                             striking up conversation with people on the streets. When he's not exploring
                             you can find him reading a good book, hanging out with friends & family, or discovering new music. 
@@ -352,14 +351,6 @@
                           </p>
                         </div>
                       </div>
-
-                      {/* <div className="md:col-span-1 md:col-start-3 md:mt-32">
-                        <div className="space-y-8">
-                          <p className="text-sm text-[#fefeff]">
-                            He would love to connect with like-minded people. 
-                          </p>
-                        </div>
-                      </div> */}
                     </div>
                   </motion.div>
                 </section>
