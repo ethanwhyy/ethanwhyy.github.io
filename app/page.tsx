@@ -316,14 +316,14 @@
                     viewport={{ once: true }}
                     className="max-w-5xl"
                   >
-                    <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
+                    {/* <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
                     <div className="grid md:grid-cols-3 gap-8">
                       <div className="md:col-span-1 md:col-start-2">
                         <div className="space-y-8">
                           <p className="text-base	text-[#fefeff]">
                           Ethan is a curious and thoughtful person with an eye for detail. He picks up new skills quickly and thrives 
                           in fast-paced environments. He lives in New York City and maximizes his time spent outside. He has no pets and would
-                          love -- should his landlord allow -- to adopt one in the near future.
+                          love - should his landlord allow - to adopt one in the near future.
                           </p>
                         </div>
                       </div>
@@ -352,7 +352,44 @@
                           </p>
                         </div>
                       </div>
+                    </div> */}
+
+                    <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
+                    <div className="grid md:grid-cols-2 md:grid-rows-3 gap-8">
+                      {/* Block 1: Row 1, Col 1 */}
+                      <div className="md:row-start-1 md:col-start-1">
+                        <div className="space-y-8">
+                          <p className="text-base text-[#fefeff]">
+                            Ethan is a curious and thoughtful person with an eye for detail. He picks up new skills quickly and thrives 
+                            in fast-paced environments. He lives in New York City and maximizes his time spent outside. He has no pets and would
+                            love - should his landlord allow - to adopt one in the near future.
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Block 2: Row 2, Col 2 */}
+                      <div className="md:row-start-2 md:col-start-2">
+                        <div className="space-y-8">
+                          <p className="text-base text-[#fefeff]">
+                            He currently works IT within the banking industry. Ethan is passionate about problem-solving, 
+                            enjoys working with people, and has a reputation for reliability and efficiency. He is knee-deep into personal 
+                            finance (and pairs-trading strategies!) and is currently full-stacking a minimalist and lean iOS app with Swift. 
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Block 3: Row 3, Col 1 */}
+                      <div className="md:row-start-3 md:col-start-1">
+                        <div className="space-y-8">
+                          <p className="text-base text-[#fefeff]">
+                            In his free time he enjoys trying new food, watching a seemingly endless list of movies, and 
+                            striking up conversation with people on the streets. You can find him reading a good book, hanging out with friends & 
+                            family, or discovering new music. He is always open to new recommendations!
+                          </p>
+                        </div>
+                      </div>
                     </div>
+
                   </motion.div>
                 </section>
 
