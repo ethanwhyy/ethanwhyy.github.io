@@ -371,9 +371,10 @@
                       <div className="md:row-start-2 md:col-start-3">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
-                            He currently works IT within the banking industry. Ethan is passionate about problem-solving, 
+                            Ethan is passionate about problem-solving, 
                             enjoys working with people, and has a reputation for reliability and efficiency. He is knee-deep into personal 
                             finance (and pairs-trading strategies!) and is currently full-stacking a minimalist and lean iOS app with Swift. 
+                            He currently works IT within the banking industry. 
                           </p>
                         </div>
                       </div>
