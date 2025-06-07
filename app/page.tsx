@@ -240,7 +240,8 @@
                 <section id="intro" className="min-h-screen px-4 md:px-24 pt-24">
                   <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
                     {/* Header Navigation */}
-                    <div className="relative md:static mb-8">
+                    <div className="relative md:static ">
+                      {/* mb-8 removed after md:static */}
                       {/* Left and Right Gradient Overlays */}
                       <div
                         className="absolute left-0 z-10 w-12 h-full bg-gradient-to-r from-black to-transparent pointer-events-none"
@@ -291,8 +292,7 @@
                           exit={{ opacity: 0, y: -20 }}
                           transition={{ duration: 0.5 }}
                         >
-                          <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight max-w-3xl">
-                            {/*mb-12 removed after leading-tight*/}
+                          <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight mb-12 max-w-3xl">
                             {audienceContent[selectedAudience].description}
                           </p>
                           <div className="flex gap-4 flex-wrap">
