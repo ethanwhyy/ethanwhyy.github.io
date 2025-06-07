@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm a proactive creator who enjoys long walks, late night talks, and trying new things. Currently in NYC!
+          Hiya! I'm a creator who enjoys long walks, late night talks, and trying new things. Currently in NYC!
         </>
       ),
       skills: [
@@ -39,7 +39,7 @@
       title: "Recruiters",
       description: (
         <>
-          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge & quick study, I thrive in dynamic environments. I am open to new and exciting opportunities.
+          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge, I am always open to intriguing opportunities.
         </>
       ),
       skills: [
@@ -371,7 +371,7 @@
                       <div className="md:row-start-1 md:col-start-2">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
-                            Ethan is a curious and thoughtful person with an eye for detail. He picks up new skills quickly and thrives 
+                            Ethan is a curious and deep thinker with an eye for detail. He picks up new skills quickly and thrives 
                             in fast-paced environments. He lives in New York City and maximizes his time spent outside. He has no pets and would
                             love - should his landlord allow - to adopt one in the near future.
                           </p>
@@ -382,10 +382,10 @@
                       <div className="md:row-start-2 md:col-start-3">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
-                            Ethan is passionate about problem-solving, 
-                            enjoys working with people, and has a reputation for reliability and efficiency. He is knee-deep into personal 
-                            finance (and pairs-trading strategies!) and is currently full-stacking a minimalist and lean iOS app with Swift. 
-                            He currently works IT within the banking industry. 
+                            Ethan is a passionate problem-solver, 
+                            enjoys working with people, and has a strong reputation for rapid, sharp execution. He is knee-deep into personal 
+                            finance and is currently full-stacking a minimalist & lean iOS app with Swift. 
+                            He currently works IT within the banking industry -- and takes every opportunity to learn something new.
                           </p>
                         </div>
                       </div>
