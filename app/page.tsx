@@ -291,7 +291,8 @@
                           exit={{ opacity: 0, y: -20 }}
                           transition={{ duration: 0.5 }}
                         >
-                          <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight mb-12 max-w-3xl">
+                          <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight max-w-3xl">
+                            {/*mb-12 removed after leading-tight*/}
                             {audienceContent[selectedAudience].description}
                           </p>
                           <div className="flex gap-4 flex-wrap">
@@ -368,8 +369,9 @@
               </section>
 
                 {/* About Section */}
-                <section id="about" className="min-h-screen px-4 md:px-24 py-8 md:py-16 md:ml-16">
+                <section id="about" className="min-h-screen px-4 md:px-24 md:ml-16">
                   <motion.div
+                    // removed after md:px-24: py-8 md:py-16
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
