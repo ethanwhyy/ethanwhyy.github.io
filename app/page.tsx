@@ -39,11 +39,11 @@
       title: "Recruiters",
       description: (
         <>
-          I am a quick study excelling idea generation and execution. I am actively searching for new roles.
+          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge & quick study, I thrive in dynamic environments. I am open to new and exciting opportunities.
         </>
       ),
       skills: [
-        <a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">
+        <a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors underline">
           Download Resume
         </a>,
         <a href="https://www.linkedin.com/in/ethan-yuen/" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
@@ -305,7 +305,7 @@
                           <p className="text-left text-3xl md:text-6xl text-[#fefeff] leading-tight mb-12 max-w-3xl">
                             {audienceContent[selectedAudience].description}
                           </p>
-                          <div className="flex gap-4 flex-wrap">
+                          <div className="text-l flex gap-4 flex-wrap">
                             {audienceContent[selectedAudience].skills.map((skill, index) => (
                               <span key={index} className="text-sm text-[#969696]">
                                 {skill}
