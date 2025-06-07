@@ -26,19 +26,30 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm a creative and analytic who enjoys long walks, late night talks, and trying new things. Currently in NYC!
+          Hiya! I'm a proactive creator who enjoys long walks, late night talks, and trying new things. Currently in NYC!
         </>
       ),
-      skills: [""]
+      skills: [
+        <a href="mailto:yuenethanw@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
+          yuenethanw@gmail.com
+        </a>
+      ]
     },
     recruiters: {
       title: "Recruiters",
       description: (
         <>
-          I'm a quick study and self-starter with a love for building minimal, efficient products. I am actively searching for new roles.
+          I am a quick study excelling idea generation and execution. I am actively searching for new roles.
         </>
       ),
-      skills: [<a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">Download Resume</a>]
+      skills: [
+        <a href="/Ethan Yuen - Resume.pdf" download className="hover:text-[#fefeff] transition-colors">
+          Download Resume
+        </a>,
+        <a href="https://www.linkedin.com/in/ethan-yuen/" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
+          LinkedIn
+        </a>
+      ]
     }
   };
 
@@ -325,29 +336,6 @@
                         <h3>Always looking for new opportunities.</h3>
                       </div>
                     </div>
-                    </div>
-
-                    <div className="actions grid grid-cols-2 sm:grid-cols-2 gap-8">
-                      <div className="item">
-                          <a
-                            href="mailto:yuenethanw@gmail.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                          >
-                            yuenethanw@gmail.com
-                          </a>
-                        </div>
-                        <div className="item">
-                          <a
-                            href="https://www.linkedin.com/in/ethan-yuen/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[#969696] hover:text-[#fefeff] transition-colors underline"
-                          >
-                            LinkedIn
-                          </a>
-                        </div>
                     </div>
                   </div>
 
