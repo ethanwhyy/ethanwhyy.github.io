@@ -240,8 +240,7 @@
                 <section id="intro" className="min-h-screen px-4 md:px-24 pt-24">
                   <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
                     {/* Header Navigation */}
-                    <div className="relative md:static ">
-                      {/* mb-8 removed after md:static */}
+                    <div className="relative md:static mb-8">
                       {/* Left and Right Gradient Overlays */}
                       <div
                         className="absolute left-0 z-10 w-12 h-full bg-gradient-to-r from-black to-transparent pointer-events-none"
