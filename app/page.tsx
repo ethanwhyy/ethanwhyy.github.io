@@ -344,7 +344,7 @@
                       className="max-w-5xl"
                     >
                       <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
-                      <div className="grid md:grid-cols-2 md:grid-rows-3 gap-8">
+                      <div className="grid md:grid-cols-2 md:grid-rows-3 gap-8 ml-12 md:ml-24">
                         {/* Block 1: Row 1, Col 1 */}
                         <div className="md:row-start-1 md:col-start-2">
                           <div className="space-y-8">
@@ -359,7 +359,7 @@
                         </div>
   
                         {/* Block 2: Row 2, Col 2 */}
-                        <div className="md:row-start-2 md:col-start-1 ml-12 md:ml-24">
+                        <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               Ethan lives in New York City and tries to maximize time outside. He has no pets and would
