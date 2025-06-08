@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm a creator and  who enjoys long walks, late night talks, & trying new things. Currently based in NYC!
+          Hi there! I'm a creator and coffee/matcha lover who enjoys long walks, late night talks, & trying new things. Currently based in NYC!
         </>
       ),
       skills: [
@@ -328,20 +328,8 @@
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="content grid md:grid-cols-2 gap-8"
+                  className="flex justify-end pr-4 md:pr-24"
                 >
-                  {/* Left Side - Text */}
-                  <div className="text flex flex-col justify-between space-y-8">
-                    <div className="content space-y-6">
-                    <div className="look flex items-center gap-2 px-4">
-                      <div className="dot w-2 h-2 rounded-full bg-[#fefeff] animate-ping" />
-                      <div className="status text-[#969696] text-2xl">
-                        <h3>Always looking for new opportunities.</h3>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-
                   {/* Right Side - Image */}
                   <div className="image">
                   <figure className="relative">
@@ -351,7 +339,6 @@
                       width={500}
                       height={500}
                       className="object-cover"
-                      // className="w-full h-full object-cover"
                     />
                   </figure>
                 </div>
