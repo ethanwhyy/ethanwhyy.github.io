@@ -137,7 +137,7 @@
                 className="text-center"
               >
                 <motion.h1 
-                  className="text-[12vw] md:text-[8vw] font-medium leading-none"
+                  className="text-[12vw] md:text-[8vw] font-medium leading-none text-right md:pr-24"
                   animate={{
                     opacity: [1, 0],
                     y: [0, -20],
@@ -145,6 +145,7 @@
                   }}
                 >
                   Ethan Yuen
+                  — Builder
                 </motion.h1>
               </motion.div>
             </motion.div>
