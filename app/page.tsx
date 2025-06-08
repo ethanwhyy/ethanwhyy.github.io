@@ -21,7 +21,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hi there! I'm a designer & economist creating data-driven solutions to turn everyday problems into real-world wins. Based in NYC.
+          Hi there! I'm a designer & economist creating data-driven solutions to turn everyday problems into real-world wins. I am currently in NYC.
         </>
       ),
       skills: []
