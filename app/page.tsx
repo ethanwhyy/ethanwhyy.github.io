@@ -309,11 +309,10 @@
                         <div className="md:row-start-1 md:col-start-2">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan is a passionate problem-solver, 
-                              enjoys working with people, and has a strong reputation for rapid, sharp execution.
+                              Ethan is a passionate problem-solver who enjoys working with people and has a strong reputation for rapid, sharp execution.
                               He is curious and acquires skills quickly, thriving in fast-paced environments. 
                               He currently works IT within the banking industry -- and takes every opportunity to learn something new.
-                              He is knee-deep in personal finance/retirement planning and is currently full-stacking a minimalist & lean iOS app with Swift. 
+                              Outside of work, Ethan dives into personal finance/retirement planning and is building a minimalist iOS app. 
                             </p>
                           </div>
                         </div>
@@ -322,11 +321,10 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan lives in New York City and tries to maximize time outside. He has no pets and would
-                              love - should his landlord allow - to adopt one in the near future. 
-                              In his free time he enjoys trying new food, watching an endless backlog of movies, and 
-                              striking up conversation with people on the street. You can find also Ethan reading a good book, hanging out with friends & 
-                              family, or discovering new music. He is open to recommendations!
+                              Ethan lives in New York City and can often be round reading in a park or hanging out with friends and family. He has no pets and would
+                              love to adopt one in the near future -- should his landlord allow. 
+                              In his free time he enjoys trying new food, working through an ever-growing movie list, discovering music, and optimizing the way he
+                              uses technology.
                             </p>
                           </div>
                         </div>
