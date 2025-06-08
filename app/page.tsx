@@ -310,30 +310,26 @@
 
                 {/* Contact Section */}
                 <section id="contact" className="px-4 md:px-24 pt-24">
-                  <div className"mr-12 md:mr-64">
-
-                      <motion.div
-                        initial={{ y: 100, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.8 }}
-                        viewport={{ once: true }}
-                        className="flex justify-end"
-                      >
-                        {/* Right Side - Image */}
-                        <div className="image">
-                        <figure className="relative">
-                          <Image
-                            src="/ethan.JPG"
-                            alt="Ethan Yuen"
-                            width={500}
-                            height={500}
-                            className="object-cover"
-                          />
-                        </figure>
-                      </div>
-                      </motion.div>
-                  
-                  </div>
+                <motion.div
+                  initial={{ y: 100, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="flex justify-end"
+                >
+                  {/* Right Side - Image */}
+                  <div className="image">
+                  <figure className="relative">
+                    <Image
+                      src="/ethan.JPG"
+                      alt="Ethan Yuen"
+                      width={500}
+                      height={500}
+                      className="object-cover"
+                    />
+                  </figure>
+                </div>
+                </motion.div>
               </section>
 
                 {/* About Section */}
