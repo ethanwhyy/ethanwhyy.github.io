@@ -26,7 +26,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hiya! I'm a creator who enjoys long walks, late night talks, and trying new things. Currently in NYC!
+          Hiya! I'm a creator and  who enjoys long walks, late night talks, & trying new things. Currently based in NYC!
         </>
       ),
       skills: [
@@ -248,7 +248,8 @@
 
               {/* Main Content */}
               <main className="flex-grow">
-                <section id="intro" className="min-h-screen px-4 md:px-24 pt-24">
+                <section id="intro" className="bg-red-500 min-h-[60vh] px-4 md:px-24 pt-24">
+                  {/* + red light trying a less aggressive screen height, only 60% vs min-h-screen */}
                   <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
                     {/* Header Navigation */}
                     <div className="relative md:static mb-8">
@@ -319,7 +320,8 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="md:px-24 md:ml-16 section contact">
+                <section id="contact" className="bg-blue-500 md:px-24 md:ml-16 section contact">
+                  {/* + blue light*/}
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
