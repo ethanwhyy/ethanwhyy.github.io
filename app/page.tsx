@@ -366,7 +366,7 @@
                               love - should his landlord allow - to adopt one in the near future. 
                               In his free time he enjoys trying new food, watching an endless backlog of movies, and 
                               striking up conversation with people on the street. You can find also Ethan reading a good book, hanging out with friends & 
-                              family, or discovering new music. He is always open to recommendations!
+                              family, or discovering new music. He is open to recommendations!
                             </p>
                           </div>
                         </div>
