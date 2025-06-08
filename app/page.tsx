@@ -358,7 +358,9 @@
               </section>
 
                 {/* About Section */}
-                <section id="about" className="min-h-screen px-4 md:px-24 md:ml-16">
+                {/*<section id="about" className="min-h-screen px-4 md:px-24 md:ml-16">*/}
+                <section id="about" className="px-4 md:px-24 md:ml-16 pt-0 pb-24">
+
                   <motion.div
                     // removed after md:px-24: py-8 md:py-16
                     initial={{ y: 100, opacity: 0 }}
@@ -368,9 +370,9 @@
                     className="max-w-5xl"
                   >
                     <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
-                    <div className="grid md:grid-cols-3 md:grid-rows-3 gap-8">
+                    <div className="grid md:grid-cols-4 md:grid-rows-3 gap-8">
                       {/* Block 1: Row 1, Col 1 */}
-                      <div className="md:row-start-1 md:col-start-2">
+                      <div className="md:row-start-1 md:col-start-3">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
                             Ethan is a curious and deep thinker with an eye for detail. He picks up new skills quickly and thrives 
@@ -381,7 +383,7 @@
                       </div>
 
                       {/* Block 2: Row 2, Col 2 */}
-                      <div className="md:row-start-2 md:col-start-3">
+                      <div className="md:row-start-2 md:col-start-4">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
                             Ethan is a passionate problem-solver, 
@@ -393,7 +395,7 @@
                       </div>
 
                       {/* Block 3: Row 3, Col 1 */}
-                      <div className="md:row-start-3 md:col-start-2">
+                      <div className="md:row-start-3 md:col-start-3">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
                             In his free time he enjoys trying new food, watching a seemingly endless list of movies, and 
