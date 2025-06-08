@@ -12,7 +12,6 @@
   const sections = [
     { id: "intro", title: "Intro" },
     { id: "about", title: "About" }
-    //{ id: "contact", title: "Contact" }
   ];
 
   type AudienceType = 'anyone' | 'recruiters';
@@ -187,44 +186,6 @@
                 </div>
               </motion.div>
 
-              {/* Mobile Menu Button */}
-              <button 
-                className="fixed top-8 right-4 z-50 md:hidden"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <div className="space-y-2">
-                  <span className={`block w-8 h-0.5 bg-[#fefeff] transition-transform ${isMenuOpen ? 'rotate-45 translate-y-2.5' : ''}`}></span>
-                  <span className={`block w-8 h-0.5 bg-[#fefeff] transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-                  <span className={`block w-8 h-0.5 bg-[#fefeff] transition-transform ${isMenuOpen ? '-rotate-45 -translate-y-2.5' : ''}`}></span>
-                </div>
-              </button>
-
-              {/* Mobile Menu */}
-              <AnimatePresence>
-                {isMenuOpen && (
-                  <motion.div
-                    initial={{ x: "100%" }}
-                    animate={{ x: 0 }}
-                    exit={{ x: "100%" }}
-                    transition={{ type: "tween", duration: 0.3 }}
-                    className="fixed inset-0 bg-black z-40 md:hidden pt-24 px-8"
-                  >
-                    {sections.map(({ id, title }) => (
-                      <div key={id} className="mb-6">
-                        <button
-                          onClick={() => scrollToSection(id)}
-                          className="text-2xl font-medium"
-                        >
-                          <span className={`${activeSection === id ? 'text-[#fefeff]' : 'text-[#969696]'}`}>
-                            {title}
-                          </span>
-                        </button>
-                      </div>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
               {/* Desktop Navigation */}
               <nav className="hidden md:block fixed left-8 top-1/2 -translate-y-1/2 z-40">
                 {sections.map(({ id, title }) => (
@@ -246,8 +207,7 @@
               {/* Main Content */}
               <main className="flex-grow">
                 <section id="intro" className="min-h-[60vh] px-4 md:px-24 pt-24">
-                  {/* + red light trying a less aggressive screen height, only 60% vs min-h-screen */}
-                  <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
+                  <div className="ml-12 md:ml-64">
                     {/* Header Navigation */}
                     <div className="relative md:static mb-8">
                       {/* Left and Right Gradient Overlays */}
@@ -292,6 +252,7 @@
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.2 }}
                     >
+                      
                       <AnimatePresence mode="wait">
                         <motion.div
                           key={selectedAudience}
@@ -312,6 +273,7 @@
                           </div>
                         </motion.div>
                       </AnimatePresence>
+                      
                     </motion.div>
                   </div>
                 </section>
@@ -326,6 +288,7 @@
                   viewport={{ once: true }}
                   className="flex justify-end pr-8 md:pr-24"
                 >
+                  
                   {/* Right Side - Image */}
                   <div className="image">
                   <figure className="relative">
@@ -337,16 +300,15 @@
                       className="object-cover"
                     />
                   </figure>
-                </div>
+                  </div>
+                  
                 </motion.div>
               </section>
 
                 {/* About Section */}
-                {/*<section id="about" className="min-h-screen px-4 md:px-24 md:ml-16">*/}
-                <section id="about" className="px-4 md:px-24 md:ml-16 pt-0 pb-24">
-
+                <section id="about className="px-4 md:px-24 pt-24">
+                {/*<section id="about" className="px-4 md:px-24 md:ml-16 pt-0 pb-24">*/}
                   <motion.div
-                    // removed after md:px-24: py-8 md:py-16
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
@@ -354,7 +316,7 @@
                     className="max-w-5xl"
                   >
                     <h2 className="text-4xl md:text-7xl font-medium mb-8 max-w-2xl">about.</h2>
-                    <div className="grid md:grid-cols-3 md:grid-rows-3 gap-8">
+                    <div className="grid md:grid-cols-2 md:grid-rows-3 gap-8">
                       {/* Block 1: Row 1, Col 1 */}
                       <div className="md:row-start-1 md:col-start-2">
                         <div className="space-y-8">
@@ -367,7 +329,7 @@
                       </div>
 
                       {/* Block 2: Row 2, Col 2 */}
-                      <div className="md:row-start-2 md:col-start-3">
+                      <div className="md:row-start-2 md:col-start-1">
                         <div className="space-y-8">
                           <p className="text-base text-[#fefeff]">
                             Ethan is a passionate problem-solver, 
