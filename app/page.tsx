@@ -127,7 +127,7 @@
           {loading ? (
             <motion.div
               key="loader"
-              className="h-screen w-screen flex items-center justify-center bg-black"
+              className="h-screen w-screen flex items-center justify-end bg-black pr-4 md:pr-24"
               exit={{ opacity: 0, transition: { duration: 0.5 } }}
             >
               <motion.div
