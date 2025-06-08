@@ -144,8 +144,7 @@
                     transition: { duration: 0.5, delay: 1.5 }
                   }}
                 >
-                  Ethan Yuen
-                  — Builder
+                  Ethan Yuen<br />— Builder
                 </motion.h1>
               </motion.div>
             </motion.div>
