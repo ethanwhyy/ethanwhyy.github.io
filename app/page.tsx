@@ -21,7 +21,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hi there! I'm a tech enthusiast who cares about creating simple, efficient products to help people. Currently located in NYC! 
+          Hi there! I'm a designer & economist creating data-driven solutions to turn everyday problems into real-world wins. Based in NYC.
         </>
       ),
       skills: []
@@ -30,7 +30,7 @@
       title: "Recruiters",
       description: (
         <>
-          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge, I am always open to intriguing opportunities.
+          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge, I am always open to impactful opportunities.
         </>
       ),
       skills: [
