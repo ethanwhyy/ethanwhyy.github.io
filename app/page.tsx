@@ -359,7 +359,7 @@
                         </div>
   
                         {/* Block 2: Row 2, Col 2 */}
-                        <div className="md:row-start-2 md:col-start-1">
+                        <div className="md:row-start-2 md:col-start-1 ml-12 md:ml-24">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               Ethan lives in New York City and tries to maximize time outside. He has no pets and would
