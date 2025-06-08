@@ -21,7 +21,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hi there! I'm a creator and coffee/matcha lover who enjoys long walks, late night talks, & trying new things. Currently based in NYC!
+          Hi there! I'm a tech enthusiast who cares about creating simple, efficient products to help people. Currently located in NYC! 
         </>
       ),
       skills: []
@@ -309,7 +309,7 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="px-4 md:px-24 pt-24">
+                <section id="contact" className="px-4 md:px-24 pt-24 mr-12 md:mr-64">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
