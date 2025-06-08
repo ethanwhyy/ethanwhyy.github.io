@@ -12,7 +12,6 @@
   const sections = [
     { id: "intro", title: "Intro" },
     { id: "about", title: "About" }
-    //{ id: "contact", title: "Contact" }
   ];
 
   type AudienceType = 'anyone' | 'recruiters';
@@ -25,11 +24,7 @@
           Hi there! I'm a creator and coffee/matcha lover who enjoys long walks, late night talks, & trying new things. Currently based in NYC!
         </>
       ),
-      skills: [
-        <a href="mailto:yuenethanw@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
-          yuenethanw@gmail.com
-        </a>
-      ]
+      skills: []
     },
     recruiters: {
       title: "Recruiters",
@@ -44,6 +39,9 @@
         </a>,
         <a href="https://www.linkedin.com/in/ethan-yuen/" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
           LinkedIn
+        </a>, 
+        <a href="mailto:yuenethanw@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#969696] hover:text-[#fefeff] transition-colors underline">
+          yuenethanw@gmail.com
         </a>
       ]
     }
@@ -111,10 +109,6 @@
       }
     };
 
-    const handleLogoClick = () => {
-      window.location.reload();
-    };
-
     const remainingLetters = "than Yuen".split("");
 
     return (
@@ -158,7 +152,6 @@
                 className="fixed top-8 left-4 md:left-8 z-50 cursor-pointer hidden md:flex"
                 onHoverStart={() => setIsNameExpanded(true)}
                 onHoverEnd={() => setIsNameExpanded(false)}
-                onClick={handleLogoClick}
                 whileTap={{ scale: 0.95 }}
               >
                 <div className="relative text-3xl font-medium flex">
@@ -246,8 +239,7 @@
               {/* Main Content */}
               <main className="flex-grow">
                 <section id="intro" className="min-h-[60vh] px-4 md:px-24 pt-24">
-                  {/* + red light trying a less aggressive screen height, only 60% vs min-h-screen */}
-                  <div className="ml-12 md:ml-64"> {/* Shift entire block to the right */}
+                  <div className="ml-12 md:ml-64">
                     {/* Header Navigation */}
                     <div className="relative md:static mb-8">
                       {/* Left and Right Gradient Overlays */}
