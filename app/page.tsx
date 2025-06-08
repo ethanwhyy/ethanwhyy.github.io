@@ -309,14 +309,13 @@
                 </section>
 
                 {/* Contact Section */}
-                <section id="contact" className="md:px-24 md:ml-16 section contact">
-                  {/* + blue light*/}
+                <section id="contact" className="px-4 md:px-24 pt-24">
                 <motion.div
                   initial={{ y: 100, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="flex justify-end pr-8 md:pr-24"
+                  className="flex justify-end"
                 >
                   {/* Right Side - Image */}
                   <div className="image">
@@ -334,11 +333,9 @@
               </section>
 
                 {/* About Section */}
-                {/*<section id="about" className="min-h-screen px-4 md:px-24 md:ml-16">*/}
-                <section id="about" className="px-4 md:px-24 md:ml-16 pt-0 pb-24">
+                <section id="about" className="px-4 md:px-24 pt-24 pb-24">
 
                   <motion.div
-                    // removed after md:px-24: py-8 md:py-16
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
