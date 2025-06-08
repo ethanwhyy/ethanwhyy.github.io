@@ -144,7 +144,8 @@
                     transition: { duration: 0.5, delay: 1.5 }
                   }}
                 >
-                  Ethan Yuen<br />— Builder
+                  <span className="block">Ethan Yuen</span>
+                  <span className="block">— Builder</span>
                 </motion.h1>
               </motion.div>
             </motion.div>
