@@ -321,10 +321,9 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan lives in New York City and can often be round reading in a park or hanging out with friends and family. He has no pets and would
+                              Ethan lives in New York City and can be found either reading in a park or hanging out with friends and family. He has no pets and would
                               love to adopt one in the near future -- should his landlord allow. 
-                              In his free time he enjoys trying new food, working through an ever-growing movie list, discovering music, and optimizing the way he
-                              uses technology.
+                              In his free time he tries new food, works through an ever-growing movie list, discovers music, and optimizes technology to work for him.
                             </p>
                           </div>
                         </div>
