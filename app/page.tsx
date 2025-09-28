@@ -309,10 +309,10 @@
                         <div className="md:row-start-1 md:col-start-2">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan is a passionate problem-solver who enjoys working with people and has a strong reputation for rapid, sharp execution.
-                              He is curious and acquires skills quickly, thriving in fast-paced environments. 
-                              He currently works IT within the banking industry -- and takes every opportunity to learn something new.
-                              Outside of work, Ethan dives into personal finance/retirement planning and is building a minimalist iOS app. 
+                              In a world of facades, Ethan is an upfront, personable, and curious professional. 
+                              He is passionate problem-solver who enjoys collaborating and has a strong reputation for rapid, reliable execution. 
+                              He currently works IT within the banking industry -- acquiring skills quickly, thriving in a demanding environment.
+                              Outside of work, Ethan delves into personal finance/retirement planning with an interest in risk management. 
                             </p>
                           </div>
                         </div>
@@ -321,9 +321,22 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan lives in New York City and can be found either reading in a park or hanging out with friends and family. He has no pets and would
-                              love to adopt one in the near future -- should his landlord allow. 
-                              In his free time he tries new food, works through an ever-growing movie list, discovers music, and optimizes technology to work for him.
+                              His first job out of college, Ethan started Desktop support with no experience or certifications.
+                              A year later he now serves as one of the C-suite desktop liaisons. In this span, he has: 
+                               <li>Created a script to reduce ticket execution time by 95%</li>
+                               <li>Served as the desktop contact to troubleshoot and resolve a company-wide firmware issue</li>
+                               <li>Utilized pattern recognition to raise problem tickets and create KBAs to prevent information siloing</li>
+                              In addition to daily tasks, Ethan onboards and trains desktop support hires. 
+                            </p>
+                          </div>
+                        </div>
+
+                        {/* Block 3: Row 2, Col 2 */}
+                        <div className="md:row-start-3 md:col-start-2">
+                          <div className="space-y-8">
+                            <p className="text-base text-[#fefeff]">
+                              In his free time he tries new food, works through an ever-growing movie list, discovers music, and optimizes tech to work for him.
+                              You can find him reading at parks in New York City. 
                             </p>
                           </div>
                         </div>
