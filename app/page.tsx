@@ -322,9 +322,9 @@
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               Ethan started Desktop support with no experience, and now serves as a C-suite desktop liaison. 
-                              In one year, he has: 
+                              In one year, he: 
                                <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Troubleshoot and resolved a company-wide camera firmware issue</li>
+                               <li>Served as desktop contact to troubleshoot and resolve a company-wide camera firmware issue</li>
                                <li>Created 80% of team KBAs to prevent information silos</li>
                                <li>Onboards and trains desktop support new hires</li>
                             </p>
