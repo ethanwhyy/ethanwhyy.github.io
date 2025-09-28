@@ -311,7 +311,7 @@
                             <p className="text-base text-[#fefeff]">
                               In a world of facades, Ethan is an upfront, personable, and curious professional. 
                               He is passionate problem-solver who has a strong reputation for rapid, reliable execution - acquiring skills quickly in a demanding environment. 
-                              Outside of work, Ethan delves into personal finance with interests in risk management. 
+                              Outside of work Ethan delves into personal finance with interests in risk management. 
                             </p>
                           </div>
                         </div>
