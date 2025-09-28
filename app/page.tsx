@@ -321,11 +321,11 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan started Desktop support with no experience or certifications.
-                              He now serves as one of the C-suite desktop liaisons. In one year, he has: 
+                              Ethan started Desktop support with no experience, and now serves as a C-suite desktop liaison. 
+                              In one year, he has: 
                                <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Served as the desktop contact to troubleshoot and resolve a company-wide firmware issue</li>
-                               <li>Utilized pattern recognition to raise problem tickets and create KBAs to prevent information siloing</li>
+                               <li>Troubleshoot and resolved a company-wide camera firmware issue</li>
+                               <li>Created 80% of team KBAs to prevent information silos</li>
                                <li>Onboards and trains desktop support new hires</li>
                             </p>
                           </div>
@@ -335,8 +335,7 @@
                         <div className="md:row-start-3 md:col-start-2">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              In his free time he tries new food, works through an ever-growing movie list, discovers music, and optimizes tech to work for him.
-                              You can find him reading at parks in New York City. 
+                              You can find him reading in parks, working through an ever-growing movie list, or optimizing tech to work for him. 
                             </p>
                           </div>
                         </div>
