@@ -321,12 +321,12 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              His first job out of college, Ethan started Desktop support with no experience or certifications.
-                              A year later he now serves as one of the C-suite desktop liaisons. In this span, he has: 
+                              Ethan started Desktop support with no experience or certifications.
+                              He now serves as one of the C-suite desktop liaisons. In one year, he has: 
                                <li>Created a script to reduce ticket execution time by 95%</li>
                                <li>Served as the desktop contact to troubleshoot and resolve a company-wide firmware issue</li>
                                <li>Utilized pattern recognition to raise problem tickets and create KBAs to prevent information siloing</li>
-                              In addition to daily tasks, Ethan onboards and trains desktop support hires. 
+                               <li>Onboards and trains desktop support new hires</li>
                             </p>
                           </div>
                         </div>
