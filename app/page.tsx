@@ -310,8 +310,7 @@
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               In a world of facades, Ethan is an upfront, personable, and curious professional. 
-                              He is passionate problem-solver who enjoys collaborating and has a strong reputation for rapid, reliable execution. 
-                              He currently works IT within the banking industry -- acquiring skills quickly, thriving in a demanding environment.
+                              He is passionate problem-solver who has a strong reputation for rapid, reliable execution - acquiring skills quickly in a demanding environment. 
                               Outside of work, Ethan delves into personal finance/retirement planning with an interest in risk management. 
                             </p>
                           </div>
@@ -324,7 +323,7 @@
                               Ethan started Desktop support with no experience, and now serves as a C-suite desktop liaison. 
                               In one year, he: 
                                <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Served as desktop contact to troubleshoot and resolve a company-wide camera firmware issue</li>
+                               <li>Served as lead desktop contact to troubleshoot and resolve a company-wide camera firmware issue</li>
                                <li>Created 80% of team KBAs to prevent information silos</li>
                                <li>Onboards and trains desktop support new hires</li>
                             </p>
@@ -335,7 +334,7 @@
                         <div className="md:row-start-3 md:col-start-2">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              You can find him reading in parks, working through an ever-growing movie list, or optimizing tech to work for him. 
+                              You can find him reading in parks, working through an ever-growing movie list, or optimizing tech for himself.
                             </p>
                           </div>
                         </div>
