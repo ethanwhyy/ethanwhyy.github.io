@@ -21,7 +21,7 @@
       title: "For Anyone",
       description: (
         <>
-          Hi there! I'm a designer & economist creating data-driven solutions to turn everyday problems into real-world wins. Currently based in NYC.
+          Hi there! I am an analytic & economist creating data-driven solutions to solve everyday problems. Currently based in NYC.
         </>
       ),
       skills: []
@@ -30,7 +30,7 @@
       title: "Recruiters",
       description: (
         <>
-          I excel at meticulous and rapid full-cycle product development. A sponge for knowledge, I am always open to impactful opportunities.
+          I excel at meticulous and rapid product development. A sponge for knowledge, I am open to learning opportunities.
         </>
       ),
       skills: [
@@ -320,10 +320,11 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              In one year Ethan went from no experience to a C-suite desktop liaison. He: 
+                              In one year with no prior experience, Ethan: 
+                               <li>Is the youngest C-suite desktop liaison</li>
                                <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Served as lead desktop contact to troubleshoot and resolve a company-wide camera firmware issue</li>
-                               <li>Created 80% of team KBAs to prevent information silos</li>
+                               <li>Served as lead and resolved company-wide firmware issue</li>
+                               <li>Published 80% of CSC KBAs to remove information silos</li>
                                <li>Onboards and trains desktop support new hires</li>
                             </p>
                           </div>
