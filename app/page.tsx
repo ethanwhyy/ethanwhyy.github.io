@@ -311,7 +311,7 @@
                             <p className="text-base text-[#fefeff]">
                               In a world of facades, Ethan is an upfront, personable, and curious professional. 
                               He is a problem-solver with a reputation for reliable execution and rapid skill acquisition. 
-                              Outside of work Ethan is intrigued by risk management and personal finance. 
+                              Outside of work Ethan is learning about risk management and personal finance. 
                             </p>
                           </div>
                         </div>
@@ -321,9 +321,9 @@
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               In one year with no prior experience, Ethan: 
-                               <li>Is the youngest C-suite desktop liaison</li>
+                               <li>Became the youngest C-suite desktop liaison</li>
                                <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Served as lead and resolved company-wide firmware issue</li>
+                               <li>Lead and resolved company-wide firmware issue</li>
                                <li>Published 80% of CSC KBAs to remove information silos</li>
                                <li>Onboards and trains desktop support new hires</li>
                             </p>
