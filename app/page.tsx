@@ -310,8 +310,8 @@
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
                               In a world of facades, Ethan is an upfront, personable, and curious professional. 
-                              He is passionate problem-solver who has a strong reputation for rapid, reliable execution - acquiring skills quickly in a demanding environment. 
-                              Outside of work Ethan delves into personal finance with interests in risk management. 
+                              He is a problem-solver with a reputation for reliable execution and rapid skill acquisition. 
+                              Outside of work Ethan is intrigued by risk management and personal finance. 
                             </p>
                           </div>
                         </div>
@@ -320,8 +320,7 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              Ethan started Desktop support with no experience, and now serves as a C-suite desktop liaison. 
-                              In one year, he: 
+                              In one year Ethan went from no experience to a C-suite desktop liaison. He: 
                                <li>Created a script to reduce ticket execution time by 95%</li>
                                <li>Served as lead desktop contact to troubleshoot and resolve a company-wide camera firmware issue</li>
                                <li>Created 80% of team KBAs to prevent information silos</li>
