@@ -320,21 +320,7 @@
                         <div className="md:row-start-2 md:col-start-1">
                           <div className="space-y-8">
                             <p className="text-base text-[#fefeff]">
-                              In one year with no prior experience, Ethan: 
-                               <li>Became the youngest C-suite desktop liaison</li>
-                               <li>Created a script to reduce ticket execution time by 95%</li>
-                               <li>Lead and resolved company-wide firmware issue</li>
-                               <li>Published 80% of CSC KBAs to remove information silos</li>
-                               <li>Onboards and trains desktop support new hires</li>
-                            </p>
-                          </div>
-                        </div>
-
-                        {/* Block 3: Row 2, Col 2 */}
-                        <div className="md:row-start-3 md:col-start-2">
-                          <div className="space-y-8">
-                            <p className="text-base text-[#fefeff]">
-                              You can find him reading in parks, working through an ever-growing movie list, or optimizing tech for himself.
+                               You can find him reading in parks, watching an ever-growing movie list, or optimizing tech for himself. For contact and resume details view the Recruiters tab.
                             </p>
                           </div>
                         </div>
